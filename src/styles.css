@@ -1,0 +1,120 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: #F0F8FF;
+  box-sizing: border-box;
+
+
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+.active {
+  color: black;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+  border-radius: 35px;
+  margin: 0px -3px ;
+  position: absolute;
+
+}
+.dangnhap li{
+  width: 190px;
+  padding: 8px;
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+}
+.dangnhap {
+
+
+  border-radius: 35px;
+
+}
+.nonactive {
+  color: black;
+  background: #F0F8FF;
+  border-radius: 35px;
+  box-shadow: 0 0 10px #fcb045;
+  margin: 0px 150px;
+}
+.logo {
+  display: flex;
+  line-height: 110px;
+  font-size: 22px;
+  margin: 30px 45px;
+  float: left;
+}
+.logo a i{
+
+  display: block;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 0 45px;
+  line-height: 50px;
+  border: 0 solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  width: 80%;
+  margin: 46px;
+  font-weight: 600;
+  border-radius: 35px;
+  padding: 8px;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+

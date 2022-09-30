@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>{{className}}</h1>
+<h2>Phòng B12</h2>
+<h3>Sĩ Số:{{siso}}</h3>
+<button (click)="themSinhVien()" type="button">Thêm sinh Vien</button><br/><br/>
+<button (click)="giamsinhvien()" type="button">Giảm Sinh Viên</button>
+<student [classN]="className"></student>
+<teacher [name]="schoolName"></teacher>
+</body>
+</html>
