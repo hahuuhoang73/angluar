@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="conternor">
+  <div class="diadiem">
+    <h1>THỜI TIẾT HIỆN TẠI</h1>
+
+    <br/>
+    <div class="canle">
+      <p> Địa Điểm: {{city}}</p>
+      <p>Nhiệt Độ: {{nhietdo}}<sup>o</sup>C</p>
+      <p>Độ Ẩm: {{doam}}%</p>
+      <p>Áp Xuất: {{apsaut}}</p>
+
+    </div>
+    <br/>
+    <div class="hieuung">
+      <p>Hãy chọn địa điểm:</p>
+      <button type="button" (click)="hanoi()">Hà Nội</button>
+      <button type="button" (click)="sg()">TP HCM</button>
+      <button type="button" (click)="to()">Tokyo</button>
+      <button type="button" (click)="lo()">London</button>
+      <button type="button" (click)="be()">Beijing</button>
+      <button type="button" (click)="ne()">New York</button>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

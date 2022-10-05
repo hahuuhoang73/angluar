@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #5d4242;
+
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
@@ -26,7 +26,7 @@ img{
   width: 100%;
 }
 .container{
-  width: 1200px;
+
   float: none;
   margin: 0 auto;
 }

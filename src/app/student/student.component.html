@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<style>
+
+  .hoso{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+    margin: 20px 450px;
+  }
+  .bangai button{
+   margin: 0 5px;
+  }
+</style>
+<div class="hoso">
+  <h1>HỒ SƠ HỌC SINH</h1>
+  <div class="noidung">
+    <p>TÊN: {{classN}}</p>
+    <p>EMAIL: {{email}}</p>
+    <p>ADdres: {{adres}}</p>
+    <p>Số bạn gái: {{sobangai}}</p>
+    <div class="bangai">
+    <button (click)="tang()" type="button">Tăng</button>
+    <button (click)="giam()" type="button">Giảm</button>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <button  type="button">Enter</button>
+
+</div>
+</body>
+</html>
