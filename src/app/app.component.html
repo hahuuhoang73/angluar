@@ -1,31 +1,394 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-<header class="section header">
-  <div class="container">
+<!--&lt;!&ndash;&lt;!&ndash;<doanki1></doanki1>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;<contact></contact>&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+<!--<about></about>-->
+<!--&lt;!&ndash;<blog></blog>&ndash;&gt;-->
+<!--<detaill></detaill>-->
+<!--<menuproduct></menuproduct>-->
+<!--<cart></cart>-->
+<!--<chitiet></chitiet>-->
+<!--<contact></contact>-->
+<!--<blog1></blog1>-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<doanki1new></doanki1new>
+<!--<dangnhap></dangnhap>-->
+<!--<demosp></demosp>-->
+<!--<head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>-->
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">-->
+<!--  <title>Layout</title>-->
+<!--</head>-->
+<!--<style>-->
 
-  </div>
-</header>
+<!--  #item1{-->
+<!--    background-image: url(assets/img/hhh.jpg);-->
 
-<nav class="section navigation">
-  <div class="container">
-    <a routerLink="/" class="btn btn-primary m-2">Login</a>
-    <a routerLink="/register" class="btn btn-warning m-2 ">Register</a>
-    <a routerLink="/thoitiet" class="btn btn-danger m-2 ">Thời Tiết</a>
+<!--  }-->
+<!--  #item2{-->
+<!--    background-image: url(assets/img/kkk.jpg);-->
+<!--  }-->
+<!--  #item3{-->
+<!--    background-image: url(assets/img/ttt.jpg);-->
+<!--  }-->
+<!--  #item4{-->
+<!--    background-image: url(assets/img/keyborad_akko.jpg);-->
+<!--  }-->
+<!--  #item5{-->
+<!--    background-image: url(assets/img/taycamps5.jpg);-->
+<!--  }-->
+<!--  #item6{-->
+<!--    background-image: url(assets/img/mouse.jpg);-->
+<!--  }-->
+<!--</style>-->
+<!--<body >-->
 
-  </div>
-</nav>
+<!--<div class="header axil-header header-style-1" >-->
 
-<section class="section main">
-  <div class="container">
-    <div class="row">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-</section>
+<!--  <div class="axil-header-top">-->
+<!--    <div class="container " >-->
+<!--      <div class="row align-items-center">-->
+<!--        <div class="col-sm-6">-->
+<!--          <div class="header-top-dropdown">-->
+<!--            <div class="dropdown">-->
+<!--              <button type="button" >English</button>-->
+<!--              <ul class="dropdown-menu" style="">-->
+<!--                <li><a class="dropdown-item" href="#">English</a></li>-->
+<!--                <li><a class="dropdown-item" href="#">Arabic</a></li>-->
+<!--                <li><a class="dropdown-item" href="#">Spanish</a></li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div class="dropdown">-->
+<!--              <button  type="button"  >-->
+<!--                USD-->
+<!--              </button>-->
+<!--              <ul class="dropdown-menu" style="">-->
+<!--                <li><a class="dropdown-item" href="#">USD</a></li>-->
+<!--                <li><a class="dropdown-item" href="#">AUD</a></li>-->
+<!--                <li><a class="dropdown-item" href="#">EUR</a></li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-sm-6">-->
+<!--          <div class="header-top-link">-->
+<!--            <ul class="quick-link">-->
+<!--              <li><a href="">Help</a></li>-->
+<!--              <li><a href="#">Join Us</a></li>-->
+<!--              <li><a href="#">Sign In</a></li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="axil-mainmenu" >-->
+<!--    <div class="container" >-->
 
-<footer class="section footer">
-  <div class="container">
+<!--      <header class="header-navbar " >-->
+<!--        <div class="header-brand">-->
+<!--          <a routerLink="/home1" class="logo logo-dark">-->
+<!--            <img src="assets/img/logo1.jpg" alt="logo">-->
+<!--          </a>-->
+<!--        </div>-->
 
-  </div>
-</footer>
+<!--        <div class="header-main-nav" style="width:90% ">-->
+<!--          &lt;!&ndash; Start Mainmanu Nav &ndash;&gt;-->
+<!--          <nav class="mainmenu-nav">-->
+
+<!--            <ul class="mainmenu">-->
+<!--              <li class="menu-item-has-children menu-item-open">-->
+<!--                <a routerLink="">Home</a>-->
+
+<!--              </li>-->
+<!--              <li class="menu-item-has-children">-->
+<!--                <a href="#">Products</a>-->
+<!--                <ul>-->
+<!--                  <li>Laptop</li>-->
+<!--                  <li>Headphone</li>-->
+<!--                  <li>Keyboard</li>-->
+<!--                  <li>Apple</li>-->
+<!--                  <li>Computer Screen</li>-->
+<!--                  <li>Controller</li>-->
+<!--                  <li>Apple Watch</li>-->
+<!--                  <li>Mouse</li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li class="menu-item-has-children">-->
+<!--                <a  href="#">Hot Brand</a>-->
+<!--                <ul>-->
+<!--                  <li>Apple</li>-->
+<!--                  <li>Asus</li>-->
+<!--                  <li>Dell</li>-->
+<!--                  <li>Sony</li>-->
+<!--                  <li>HP</li>-->
+<!--                  <li>Logitech</li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li><a routerLink="/about">About</a></li>-->
+<!--              <li class="menu-item-has-children">-->
+<!--                <a routerLink="/blog1">Blog</a>-->
+
+<!--              </li>-->
+<!--              <li>-->
+<!--                <a routerLink="/contact">Contact</a>-->
+
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </nav>-->
+<!--          &lt;!&ndash; End Mainmanu Nav &ndash;&gt;-->
+<!--        </div>-->
+
+<!--        <div class="header-action">-->
+<!--          <ul class="action-list">-->
+<!--            <li class="search">-->
+
+<!--              <label for="open">-->
+<!--                <i class='bx bx-search'></i>-->
+<!--              </label>-->
+<!--            </li>-->
+<!--            <li class="wishlist">-->
+<!--              <a routerLink="/blog">-->
+<!--                <i class='bx bx-like'></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li class="shopping-cart">-->
+<!--              <a onclick="openNav()" >-->
+<!--                <i class='bx bx-shopping-bag' ></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li class="my-account">-->
+<!--              <a onclick="">-->
+<!--                <i class='bx bx-user'></i>-->
+<!--              </a>-->
+
+<!--            </li>-->
+
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="nav-search">-->
+<!--          <input type="checkbox" name="open" id="open">-->
+<!--          <form action="" class="search-form" role="search">-->
+<!--            <input autocomplete="off" class="search-input" name="q" placeholder="Search" type="search" value="">-->
+<!--            <input class="search-action" type="submit" value="Ok">-->
+<!--          </form>-->
+<!--        </div>-->
+
+<!--      </header>-->
+
+<!--    </div>-->
+
+
+
+<!--  </div>-->
+
+<!--</div>-->
+
+<!--<router-outlet></router-outlet>-->
+
+<!--<footer class="section footer">-->
+<!--  <div class="container-home home12">-->
+<!--    <div class="contact-icon">-->
+<!--      <div class="icon-img">-->
+<!--        <img src="./assets/images/service1.png" alt=""/>-->
+<!--      </div>-->
+<!--      <div class="content">-->
+<!--        <h6>Fast & Secure Delivery</h6>-->
+<!--        <p>Tell about your service.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="contact-icon">-->
+<!--      <div class="icon-img">-->
+<!--        <img src="./assets/images/service2.png" alt=""/>-->
+<!--      </div>-->
+<!--      <div class="content">-->
+<!--        <h6>Money Back Guarantee</h6>-->
+<!--        <p>Within 10 days.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="contact-icon">-->
+<!--      <div class="icon-img">-->
+<!--        <img src="./assets/images/service3.png" alt=""/>-->
+<!--      </div>-->
+<!--      <div class="content">-->
+<!--        <h6>24 Hour Return Policy</h6>-->
+<!--        <p>No question ask.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="contact-icon">-->
+<!--      <div class="icon-img">-->
+<!--        <img src="./assets/images/service4.png" alt=""/>-->
+<!--      </div>-->
+<!--      <div class="content">-->
+<!--        <h6>Pro Quality Support</h6>-->
+<!--        <p>24/7 Live support.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="row">-->
+<!--      <div class="col-3">-->
+<!--        <h5>Support</h5>-->
+<!--        <ul>-->
+<!--          <li><a href="https://www.google.com/maps/place/FPT+Aptech+H%C3%A0+N%E1%BB%99i+-+H%E1%BB%87+Th%E1%BB%91ng+%C4%90%C3%A0o+T%E1%BA%A1o+L%E1%BA%ADp+Tr%C3%ACnh+Vi%C3%AAn+Qu%E1%BB%91c+T%E1%BA%BF+(Since+1999)/@21.0288201,105.780108,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab86cece9ac1:0xa9bc04e04602dd85!8m2!3d21.0288201!4d105.7822967?hl=vi">-->
+<!--            8A, Ton That Thuyet, Nam Tu Liem, Ha Noi</a></li>-->
+<!--          <li><i class='bx bx-envelope'></i> <a href="mailto:codeonemin@gmail.com">codeonemin@gmail.com</a></li>-->
+<!--          <li><i class='bx bx-phone'></i> <a href="tel:+123 456 7890">+123 456 7890</a></li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="col-3">-->
+<!--        <h5>Account</h5>-->
+<!--        <ul>-->
+<!--          <li><a href="">My Account</a></li>-->
+<!--          <li><a href="">Login / Register</a></li>-->
+<!--          <li><a href="">Cart</a></li>-->
+<!--          <li><a href="">Wishlist</a></li>-->
+<!--          <li><a href="">Shop</a></li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="col-3">-->
+<!--        <h5>Quick Link</h5>-->
+<!--        <ul>-->
+<!--          <li><a href="">Privacy Policy</a></li>-->
+<!--          <li><a href="">Terms Of Use</a></li>-->
+<!--          <li><a href="">FAQ</a></li>-->
+<!--          <li><a href="">Contact</a></li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="col-3">-->
+<!--        <h5>Download App</h5>-->
+<!--        <div class="qr-code">-->
+<!--          <p>Save $3 With App & New User only</p>-->
+<!--          <img src="./assets/images/qrcode_CodeOneMin.png" alt=""/>-->
+<!--          <div class="link-app">-->
+<!--            <a href=""><img src="./assets/images/app-store.png" alt=""/></a>-->
+<!--            <a href=""><img src="./assets/images/play-store.png" alt=""/></a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <hr class="hr-2"/>-->
+<!--    <div class="row">-->
+<!--      <div class="social-icon col-3">-->
+<!--        <div class="menu-icons">-->
+<!--          <a href=""><i class='bx bxl-facebook-circle'></i></a>-->
+<!--          <a href=""><i class='bx bxl-instagram-alt'></i></a>-->
+<!--          <a href=""><i class='bx bxl-twitter' ></i></a>-->
+<!--          <a href=""><i class='bx bxl-linkedin-square'></i></a>-->
+<!--          <a href=""><i class='bx bxl-discord-alt' ></i></a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="copy-right col-5">-->
+<!--        <p>© 2022 by <a href="#">Code One Min</a>. All rights reserved.</p>-->
+<!--      </div>-->
+<!--      <div class="payment col-4">-->
+<!--        <h6>Accept For</h6>-->
+<!--        <div class="cart-img">-->
+<!--          <img src="./assets/images/cart-1.png" alt=""/>-->
+<!--          <img src="./assets/images/cart-2.png" alt=""/>-->
+<!--          <img src="./assets/images/cart-3.png" alt=""/>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</footer>-->
+
+<!--<div class="cart-dropdown open" id="cart-dropdown">-->
+<!--  <div class="cart-content-wrap">-->
+<!--    <div class="cart-header">-->
+<!--      <h2 class="header-title">Cart review</h2>-->
+<!--      <button class="cart-close sidebar-close" onclick="closeNav()"><i class="fas fa-times"></i></button>-->
+<!--    </div>-->
+<!--    <div class="cart-body">-->
+<!--      <ul class="cart-item-list">-->
+<!--        <li class="cart-item">-->
+<!--          <div class="item-img">-->
+<!--            <a href=""><img src="assets/images/product-01.png" alt="Commodo Blown Lamp"></a>-->
+<!--            <button class="close-btn"><i class="fas fa-times"></i></button>-->
+<!--          </div>-->
+<!--          <div class="item-content">-->
+<!--            <div class="product-rating">-->
+<!--                                <span class="icon">-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--							</span>-->
+<!--              <span class="rating-number">(64)</span>-->
+<!--            </div>-->
+<!--            <h3 class="item-title"><a href="">Wireless PS Handler</a></h3>-->
+<!--            <div class="item-price"><span class="currency-symbol">$</span>155.00</div>-->
+<!--            <div class="pro-qty item-quantity"><span class="dec qtybtn">-</span>-->
+<!--              <input type="number" class="quantity-input" value="15">-->
+<!--              <span class="inc qtybtn">+</span></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li class="cart-item">-->
+<!--          <div class="item-img">-->
+<!--            <a href="single-product-2.html"><img src="assets/images/product-02.png" alt="Commodo Blown Lamp"></a>-->
+<!--            <button class="close-btn"><i class="fas fa-times"></i></button>-->
+<!--          </div>-->
+<!--          <div class="item-content">-->
+<!--            <div class="product-rating">-->
+<!--                                <span class="icon">-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--							</span>-->
+<!--              <span class="rating-number">(4)</span>-->
+<!--            </div>-->
+<!--            <h3 class="item-title"><a href="">Gradient Light Keyboard</a></h3>-->
+<!--            <div class="item-price"><span class="currency-symbol">$</span>255.00</div>-->
+<!--            <div class="pro-qty item-quantity"><span class="dec qtybtn">-</span>-->
+<!--              <input type="number" class="quantity-input" value="5">-->
+<!--              <span class="inc qtybtn">+</span></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li class="cart-item">-->
+<!--          <div class="item-img">-->
+<!--            <a href=""><img src="assets/images/product-03.png" alt="Commodo Blown Lamp"></a>-->
+<!--            <button class="close-btn"><i class="fas fa-times"></i></button>-->
+<!--          </div>-->
+<!--          <div class="item-content">-->
+<!--            <div class="product-rating">-->
+<!--                                <span class="icon">-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--								<i class="fas fa-star"></i>-->
+<!--							</span>-->
+<!--              <span class="rating-number">(6)</span>-->
+<!--            </div>-->
+<!--            <h3 class="item-title"><a href="">HD CC Camera</a></h3>-->
+<!--            <div class="item-price"><span class="currency-symbol">$</span>200.00</div>-->
+<!--            <div class="pro-qty item-quantity"><span class="dec qtybtn">-</span>-->
+<!--              <input type="number" class="quantity-input" value="100">-->
+<!--              <span class="inc qtybtn">+</span></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </div>-->
+<!--    <div class="cart-footer">-->
+<!--      <h3 class="cart-subtotal">-->
+<!--        <span class="subtotal-title">Subtotal:</span>-->
+<!--        <span class="subtotal-amount">$610.00</span>-->
+<!--      </h3>-->
+<!--      <div class="group-btn">-->
+<!--        <a routerLink="/cart" onclick="closeNav()" class="axil-btn btn-bg-primary viewcart-btn">View Cart</a>-->
+<!--        <a href="" class="axil-btn btn-bg-secondary checkout-btn">Checkout</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--<div id="closeMask" onclick="closeNav()"></div>-->
+<!--<button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-to-top'></i></button>-->
+<!--</body>-->
+<!--</html>-->
+
 
 

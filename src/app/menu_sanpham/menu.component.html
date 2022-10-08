@@ -1,0 +1,158 @@
+<style>
+  #item8{
+    background-image: url(assets/img/avta1.png);
+  }
+  #item9{
+    background-image: url(assets/img/avta2.png);
+  }
+  #item14{
+    background-image: url(assets/img/avta3.png);
+  }
+  #item11{
+    background-image: url(assets/img/avta4.png);
+  }
+  #item12{
+    background-image: url(assets/img/avta5.png);
+  }
+  #item13{
+    background-image: url(assets/img/avta5.png);
+  }
+  #item7{
+    background-image:url("assets/img/navbar.png") ;
+  }
+  #item1{
+    background-image: url(assets/img/hhh.jpg);
+
+  }
+  #item2{
+    background-image: url(assets/img/kkk.jpg);
+  }
+  #item3{
+    background-image: url(assets/img/ttt.jpg);
+  }
+  #item4{
+    background-image: url(assets/img/keyborad_akko.jpg);
+  }
+  #item5{
+    background-image: url(assets/img/taycamps5.jpg);
+  }
+  #item6{
+    background-image: url(assets/img/mouse.jpg);
+  }
+</style>
+
+
+<div class="section navigation">
+  <div class="nav1">
+    <div id="item7" >
+    </div>
+  </div>
+</div>
+
+
+
+
+<section class="section main class1">
+  <div class="navigation">
+    <div class="container-main">
+
+      <div class="menu-header">
+        <div class="row justify-content-center">
+          <div class="cot-nav col-5">
+            <ul>
+              <a href=""><li class="item-1">Home</li></a>
+              <li class="none-item-1"></li>
+              <a href=""><li class="active-item-1">All Products</li></a>
+            </ul>
+            <h1 class="title">Explore All Products</h1>
+          </div>
+          <div class="cot-nav col-5">
+            <div class="img-menuheader">
+              <img src="./assets/images/shopping_cart.png" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container-section row">
+      <div class="danhmuc-spham col-2">
+
+        <div class="danhmuc-text">
+          <i class='bx bx-list-ul'></i>
+          <h4 class="">Categories</h4>
+        </div>
+        <div class="chon-nut">
+          <form>
+            <div class="chon-sanpham">
+
+              <label  *ngFor="let m of sanpham1 ,let i= index " for="nutchon-{{sanpham1[i].id}}" routerLink="/menu/{{sanpham1[i].id}}" (click)="onactive()" >
+                <button  type="button" id="nutchon-{{sanpham1[i].id}}" class="option-input radio" name="danhmuc" ></button>
+                {{sanpham1[i].name}} </label>
+            </div>
+
+
+
+            <div class="xoa-dulieu">
+              <button routerLink="/menu/1" (click)="onactive()" type="reset" >Reset All <i class='bx bx-rotate-right'></i></button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+      <div class=" menu menu-sanpham col-8">
+        <div class="menu2 bst-box col-2">
+          <span class="hienthi">Showing 1-8 of 50 results</span>
+          <div class="box-select">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Short by Latest</option>
+              <option  value="1">Short by Oldest</option>
+              <option value="2">Short by Name</option>
+              <option value="3">Short by Price</option>
+            </select>
+          </div>
+        </div>
+       <div class="menuuu" >Products:<span *ngFor="let m of danhsach12 ;let i= index " >{{danhsach12[i].name}}</span></div>
+
+        <div class="mathang col-3"  *ngFor="let m of danhsach13 " id="mathang" >
+        <div class="img-zoom">
+          <a routerLink="/chitiet/{{m.id}}" (click)="onactive()"><img src="{{m.picture}}" alt=""/></a>
+        </div>
+        <div class="noidung-sanpham">
+          <h6><a routerLink="/chitiet/{{m.id}}" (click)="onactive()" >{{m.title}}</a></h6>
+          <p>${{m.price}} <span>${{m.discount}}</span></p>
+        </div>
+        <div class="hien-nut">
+          <button routerLink="/chitiet/{{m.id}}" (click)="onactive()" class="nut-1"><i class='bx bx-show-alt'></i></button>
+          <button routerLink="/cart"  (click)="onactive()" class="nut-2">Add to Cart</button>
+          <button routerLink="/blog" (click)="onactive()" class="nut-3"><i class='bx bx-heart'></i></button>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  </div>
+  <div class="container-newsletter class" style="height: 570px">
+    <div class="newsletter-wrapper">
+      <img src="assets/images/form_section.jpg" alt=""/>
+      <div class="menu-text">
+        <span><i class='bx bxs-envelope'></i>Newsletter</span>
+        <h2>Get weekly update</h2>
+      </div>
+      <div class="newsletter-form">
+        <form action="#" method="get">
+          <i class='bx bx-mail-send' ></i>
+          <input type="email" required placeholder="CodeOneMin@gmail.com"/>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-to-top'></i></button>

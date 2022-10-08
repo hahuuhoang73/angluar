@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Hind+Madurai:wght@500&family=Noto+Sans+Limbu&family=Poppins&family=Roboto&display=swap');
+
+#item7{
+  padding: 40px 0 20px;
+  position: relative;
+  top: -20px;
+}
+.about {
+  position: relative;
+  background-color: #f8f8f8;
+  padding: 40px 0 45px;
+  top: -20px;
+}
+.axil-breadcrumb {
+  display: flex;
+  position: relative;
+  padding: 0;
+  /* margin: 0 0 2px; */
+  list-style: none;
+  top: 16px;
+  align-items: center;
+}
+.axil-breadcrumb li.separator {
+  height: 20px;
+  width: 2px;
+  background-color: #e5e5e5;
+  margin: 0 8px;
+}
+ul li a{
+  color: #999;
+  font-size: 15px;
+}
+.header-style-1 {
+  background-color: #f9f3f0;
+  padding-bottom: 30px!important;
+  height: 150px;
+}
+.section.navigation{
+  padding-top: 20px;
+}
+.active{
+  color: #0775d0;
+}
+.axil-breadcrumb-area .inner .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+ul li {
+  list-style: none;
+  font-size: 15px!important;
+  font-weight: bold;
+}
+.flex{
+  display: flex;
+}
+.anh1{
+  position: relative;
+  left: 830px;
+
+}
+.inner h1{
+  top: 13px;
+  position: relative;
+}
+.noidung3 {
+  padding: 80px 0;
+}
+.navigation-blog{
+  margin-top: 100px;
+}
+.navigation-blog .container{
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+.navigation-blog .container .img-hd{
+  width: 100%;
+}
+.section-blog .container .banner-img{
+  margin-top: 60px;
+}
+.section-blog .container .banner-img img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+.section-blog .container .row .icons-share{
+  margin-top: 65px;
+  color: #777;
+}
+.section-blog .container .row .icons-share h5.title-share{
+  font-size: 18px;
+}
+.section-blog .container .row .icons-share a{
+  color: #777;
+  text-decoration: none;
+}
+.section-blog .container .row .icons-share a i{
+  font-size: 25px;
+  padding: 6px 0;
+  margin-left: 20px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+.section-blog .container .row .icons-share i:hover{
+  background: #ff497c;
+  color: #fff;
+}
+.section-blog .container .row .post-blog{
+  margin-top: 65px;
+}
+.section-blog .container .row .post-blog .post-heading h2{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.section-blog .container .row .post-blog .post-meta{
+  display: flex;
+}
+.section-blog .container .row .post-blog .post-meta .post-avatar{
+  margin-top: 40px;
+}
+.section-blog .container .row .post-blog .post-meta .post-avatar img{
+  width: 70px;
+  border-radius: 50%;
+}
+.section-blog .container .row .post-blog .post-meta .post-note{
+  margin-top: 48px;
+}
+.section-blog .container .row .post-blog .post-meta .post-note a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  padding-left: 20px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.section-blog .container .row .post-blog .post-meta .post-note a:hover{
+  color: #3577f0;
+}
+.section-blog .container .row .post-blog .post-meta .post-note ul{
+  padding: 8px 20px;
+}
+.section-blog .container .row .post-blog .post-meta .post-note ul li{
+  list-style: none;
+  padding: 0;
+}
+.section-blog .container .row .post-blog .post-meta .post-note .post-item{
+  float: left;
+  color: #777;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.section-blog .container .row .post-blog .post-meta .post-note .post-none-item{
+  width: 1px;
+  height: 18px;
+  background: #777;
+  margin: 0 10px;
+  float: left;
+}
+hr.hr-post{
+  margin-top: 52px;
+  width: 100%;
+  height: 2px;
+  color: #777;
+}
+.section-blog .container .row .post-blog p{
+  margin-top: 28px;
+  font-size: 16px;
+  color: #777;
+  line-height: 26px;
+}
+.section-blog .container .row .post-blog .inner-blog{
+background: #f9f3f0;
+border-left: 6px solid #fabbc4;
+border-radius: 6px;
+padding: 50px 40px 30px;
+}
+.section-blog .container .row .post-blog h3{
+  margin-top: 40px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.section-blog .container .row .post-blog p{
+  font-size: 16px;
+  color: #777;
+}
+.section-blog .container .row .right-slider{
+  margin-top: 50px;
+}
+.section-blog .container .row .right-slider .single-widget{
+  width: 100%;
+  /*margin-top: 30px;*/
+  /*margin-left: 23px;*/
+  border: 2px solid #f1f1f1;
+  border-radius: 5px;
+  margin-bottom: 110px;
+}
+.section-blog .container .row .right-slider .single-widget h6{
+  margin: 20px 14px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.section-blog .container .row .right-slider .single-widget .post-list{
+  margin: 25px 11px;
+  display: flex;
+}
+.post-list .thumbnail{
+  width: 150px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.post-list .thumbnail img{
+  width: 150px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.post-list .thumbnail:hover img{
+  transform: scale(1.1);
+}
+.thumbnail-content.col-6{
+  margin-left: 15px;
+}
+.thumbnail-content.col-6 a{
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s;
+}
+.thumbnail-content.col-6 a:hover{
+  color: #3577f0;
+}
+.thumbnail-content.col-6 ul{
+  padding: 0;
+  margin-top: 25px;
+}
+.thumbnail-content.col-6 ul .thumbnail-item{
+  float: left;
+  color: #777;
+  font-size: 14px;
+  margin-right: 3px;
+}
+.thumbnail-content.col-6 ul .thumbnail-none-item{
+  width: 1px;
+  height: 18px;
+  background: #777;
+  margin: 0 10px;
+  float: left;
+}
+/**/
+.related-products{
+  display: flex;
+}
+.related-products .thumbnail-2{
+  width: 150px;
+  margin-left: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.related-products .thumbnail-2 img{
+  width: 150px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.related-products .thumbnail-2:hover img{
+  transform: scale(1.07);
+}
+.single-widget .related-products .pr-content{
+  margin: 20px 0;
+}
+.single-widget .related-products .pr-content h5.giatien{
+  margin: 0;
+}
+.related-products .pr-content h5.giatien a{
+  margin: 35px 0;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.related-products .pr-content h5.giatien a:hover{
+  color: #3577f0;
+}
+.single-widget .related-products .pr-content p{
+  margin-top: 20px;
+  color: #000;
+  font-size: 18px;
+}
+.single-widget .related-products .pr-content p span{
+  color: #777777;
+  text-decoration: line-through;
+}
+.video-ytb{
+  margin-top: 50px;
+}
+.video-ytb h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.video-ytb iframe{
+  width: 100%;
+  height: 400px;
+}
+.comment-respond{
+  margin-top: 55px;
+}
+.comment-respond h4{
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+}
+.comment-respond form p{
+  font-size: 16px;
+  color: #777;
+}
+.comment-respond form .bao-int{
+  display: flex;
+}
+.comment-respond form .form-group{
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.comment-respond form .form-group #reply{
+  width: 100%;
+  min-height: 160px;
+  border-radius: 6px;
+  resize: none;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #CBD3D9;
+  outline: none;
+  line-height: 1.5;
+  padding: 20px;
+  transition: all 0.3s;
+}
+.comment-respond form .form-group label{
+  position: absolute;
+  top: -12px;
+  left: 22px;
+  z-index: 4;
+  background: #fff;
+  padding: 0 10px;
+}
+.comment-respond form .form-group label span{
+  color: red;
+}
+.comment-respond form .form-group #reply:focus{
+  border: 1px solid  #3577f0;
+}
+.comment-respond form .form-group input{
+  width: 95%;
+  height: 50px;
+  margin-right: 25px;
+  padding: 0 20px;
+  border: 1px solid #CBD3D9;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s;
+}
+.comment-respond form .form-group input:focus{
+  border: 1px solid  #3577f0;
+}
+.comment-respond form .form-group-2{
+  margin-bottom: 30px;
+  position: relative;
+}
+.comment-respond form .form-group-2.col-6{
+  width: 50%;
+}
+.comment-respond form .form-group-2 label{
+  position: absolute;
+  top: -12px;
+  left: 40px;
+  z-index: 4;
+  background: #fff;
+  padding: 0 10px;
+}
+.comment-respond form .form-group-2 label span{
+  color: red;
+}
+.comment-respond form .form-group-2 input{
+  width: 95%;
+  height: 50px;
+  padding: 0 20px;
+  margin-left: 20px;
+  border: 1px solid #CBD3D9;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s;
+}
+.comment-respond form .form-group-2 input:focus{
+  border: 1px solid  #3577f0;
+}
+.comment-respond form .btn-send button{
+  border: 1px solid #3577f0;
+  width: 150px;
+  height: 50px;
+  background: #fff;
+  color: #3577f0;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.comment-respond form .btn-send button:hover{
+  background: #3577f0;
+  color: #fff;
+}

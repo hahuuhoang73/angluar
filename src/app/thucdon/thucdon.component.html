@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="conternor">
+  <div class="thucdon">
+    <button class="btn btn-warning m-2" type="button" (click)="on()">Bật</button>
+    <button class="btn btn-danger"   type="button" (click)="off()">Tắt</button>
+  <h1>THỰC ĐƠN {{flag}}</h1>
+    <div class="noidungthucdon">
+
+    <table *ngIf="flag" class="table">
+      <thead>
+      <tr>
+        <th scope="col">STT</th>
+        <th scope="col1">Danh Sách Món </th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let m of monan; let i =index;">
+        <th scope="row">{{i+1}}</th>
+        <td ><span>{{monan[i].name}}</span> <img src="{{monan[i].icon}}" /></td>
+
+      </tr>
+
+      </tbody>
+    </table>
+</div>
+</div>
+</div>
+</body>
+</html>

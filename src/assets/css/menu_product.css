@@ -1,0 +1,894 @@
+
+/*!*@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Hind+Madurai:wght@500&family=Noto+Sans+Limbu&family=Poppins&family=Roboto&display=swap');*!*/
+/*!**{*!*/
+/*!*  margin: 0;*!*/
+/*!*  padding: 0;*!*/
+/*!*  box-sizing: border-box;*!*/
+/*!*}*!*/
+/*!*body{*!*/
+/*!*  color: #000;*!*/
+/*!*  font-family: 'Poppins', sans-serif;*!*/
+/*!*  width: 100%;*!*/
+/*!*}*!*/
+/*!*a{*!*/
+/*!*  text-decoration: none;*!*/
+/*!*}*!*/
+/*!*ul li{*!*/
+/*!*  list-style: none;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main{*!*/
+/*!*  margin-top: 100px;*!*/
+/*!*  width: 100%;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .images-nav img{*!*/
+/*!*  top: 0;*!*/
+/*!*  width: 100%;*!*/
+/*!*  height: 65px;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header{*!*/
+/*!*  width: 100%;*!*/
+/*!*  height: 205px;*!*/
+/*!*  background-color: #f8f8f8;*!*/
+/*!*}*!*/
+
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav{*!*/
+/*!*  margin-top: 40px;*!*/
+/*!*  height: 125px;*!*/
+/*!*  background: #f8f8f8;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul{*!*/
+/*!*  margin-top: 18px;*!*/
+/*!*  display: flex;*!*/
+/*!*  font-weight: 600;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .item-1{*!*/
+/*!*  color: #777;*!*/
+/*!*  margin-right: 6px;*!*/
+/*!*  transition: all 0.3s;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .item-1:hover{*!*/
+/*!*  color: #3577f0;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul li.none-item-1{*!*/
+/*!*  width: 2px;*!*/
+/*!*  background: #777;*!*/
+/*!*  height: 16px;*!*/
+/*!*  margin-top: 4px;*!*/
+/*!*  margin-right: 8px;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .active-item-1{*!*/
+/*!*  color: #3577f0;*!*/
+/*!*  transition: all 0.3s;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .active-item-1:hover{*!*/
+/*!*  color: #fff;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav .title{*!*/
+/*!*  margin-left: 30px;*!*/
+/*!*  font-size: 40px;*!*/
+/*!*  font-weight: bold;*!*/
+/*!*  color: #000;*!*/
+/*!*}*!*/
+/*!*.navigation .container-main .menu-header .row.justify-content-center .cot-nav .img-menuheader img{*!*/
+/*!*  width: 130px;*!*/
+/*!*  margin-top: 20px;*!*/
+/*!*  margin-left: 420px;*!*/
+/*!*}*!*/
+/*!*!*sj*!*!*/
+/*!*.section .container-section.row{*!*/
+/*!*  margin: 0;*!*/
+/*!*  padding: 0;*!*/
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham{*!*/
+/*!*  position: relative;*!*/
+/*!*  background-color: #fff;*!*/
+/*!*  width: 215px;*!*/
+/*!*  height: 706px;*!*/
+/*!*  top: 20px;*!*/
+/*!*  left: 100px;*!*/
+/*!*  margin: 0;*!*/
+/*!*  padding: 0;*!*/
+
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham .danhmuc-text{*!*/
+/*!*  background: #fff;*!*/
+/*!*  color: #000;*!*/
+/*!*  display: flex;*!*/
+/*!*  height: 45px;*!*/
+/*!*  border-bottom: 1px solid #b2bec3;*!*/
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham .danhmuc-text i{*!*/
+/*!*  font-size: 30px;*!*/
+/*!*  margin: 5px;*!*/
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham .danhmuc-text h4{*!*/
+/*!*  position: relative;*!*/
+/*!*  top: 11px;*!*/
+/*!*  font-size: 18px;*!*/
+/*!*  font-weight: 600;*!*/
+/*!*}*!*/
+/*!*.chon-nut form label{*!*/
+/*!*  padding: 5px 15px;*!*/
+/*!*  margin-right: 10px;*!*/
+/*!*  color: #777777;*!*/
+/*!*}*!*/
+/*!*.option-input{*!*/
+/*!*  appearance: none;*!*/
+/*!*  position: relative;*!*/
+/*!*  top: 6px;*!*/
+/*!*  right: 0;*!*/
+/*!*  bottom: 0;*!*/
+/*!*  left: 0;*!*/
+/*!*  height:18px;*!*/
+/*!*  width:18px;*!*/
+/*!*  transition: all 0.15s ease-out 0s;*!*/
+/*!*  background: #ffffff;*!*/
+/*!*  border: #ccc solid 1px;*!*/
+/*!*  color: #fff;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*  display: inline-block;*!*/
+/*!*  margin-right: 0.2rem;*!*/
+/*!*  outline: none;*!*/
+/*!*  position: relative;*!*/
+/*!*  z-index: 1000;*!*/
+/*!*}*!*/
+/*!*.option-input:hover{*!*/
+/*!*  background:#eee;*!*/
+/*!*}*!*/
+/*!*.option-input:checked {*!*/
+/*!*  background: #3577f0;*!*/
+/*!*  border-color: #3577f0;*!*/
+/*!*}*!*/
+/*!*.option-input:checked::before{*!*/
+/*!*  height:18px;*!*/
+/*!*  width:18px;*!*/
+/*!*  position: absolute;*!*/
+/*!*  content: '\2714';*!*/
+/*!*  display: inline-block;*!*/
+/*!*  font-size: 20px;*!*/
+/*!*  text-align: center;*!*/
+/*!*  line-height: 18px;*!*/
+/*!*}*!*/
+/*!*.option-input:checked::after{*!*/
+/*!*  animation: click-wave 0.65s;*!*/
+/*!*  background: #3577f0;*!*/
+/*!*  content: '';*!*/
+/*!*  display: block;*!*/
+/*!*  position: relative;*!*/
+/*!*  z-index: 100;*!*/
+/*!*}*!*/
+/*!*.option-input.radio{*!*/
+/*!*  border-radius: 50%;*!*/
+/*!*  top:3px;*!*/
+/*!*  width:18px;*!*/
+/*!*  height:18px;*!*/
+/*!*  left:-1px;*!*/
+/*!*  margin-right: 0.15rem;*!*/
+/*!*}*!*/
+/*!*.option-input.radio::after{*!*/
+/*!*  border-radius: 50%;*!*/
+/*!*}*!*/
+/*!*@keyframes click-wave {*!*/
+/*!*  0% {*!*/
+/*!*    height:20px;*!*/
+/*!*    width:20px;*!*/
+/*!*    opacity: 0.35;*!*/
+/*!*    position: relative;*!*/
+/*!*  }*!*/
+/*!*  100% {*!*/
+/*!*    height: 40px;*!*/
+/*!*    width: 40px;*!*/
+/*!*    margin-left: -14px;*!*/
+/*!*    margin-top: -14px;*!*/
+/*!*    opacity: 0;*!*/
+/*!*  }*!*/
+/*!*}*!*/
+/*!*.xoa-dulieu button{*!*/
+/*!*  width: 215px;*!*/
+/*!*  height: 50px;*!*/
+/*!*  border: none;*!*/
+/*!*  border-radius: 3px;*!*/
+/*!*  margin-top: 35px;*!*/
+/*!*  font-size: 20px;*!*/
+/*!*  background: #3577f0;*!*/
+/*!*  color: #fff;*!*/
+/*!*  transition: all 0.3s;*!*/
+/*!*}*!*/
+/*!*.xoa-dulieu button i{*!*/
+/*!*  position: relative;*!*/
+/*!*  top: 2px;*!*/
+/*!*  font-size: 22px;*!*/
+/*!*  transition: all 0.3s linear;*!*/
+/*!*}*!*/
+/*!*.xoa-dulieu button:hover i{*!*/
+/*!*  animation: load 1s infinite linear;*!*/
+/*!*}*!*/
+/*!*@keyframes load{*!*/
+/*!*  0%{*!*/
+/*!*    transform: rotate(0deg);*!*/
+/*!*  }*!*/
+/*!*  100%{*!*/
+/*!*    transform: rotate(360deg);*!*/
+/*!*  }*!*/
+/*!*}*!*/
+/*!*.xoa-dulieu button:hover{*!*/
+/*!*  background: #000;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham{*!*/
+/*!*  margin-top: 20px;*!*/
+/*!*  margin-left: 150px;*!*/
+/*!*  background: #fff;*!*/
+/*!*  padding: 0;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .bst-box{*!*/
+/*!*  display: flex;*!*/
+/*!*  position: relative;*!*/
+/*!*  left: 550px;*!*/
+/*!*  width: 394px;*!*/
+/*!*  background: #fff;*!*/
+/*!*  height: 38px;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .bst-box .hienthi{*!*/
+/*!*  position: relative;*!*/
+/*!*  color: #000;*!*/
+/*!*  font-weight: 600;*!*/
+/*!*  margin-right: 25px;*!*/
+/*!*  top: 7px;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .bst-box .box-select .form-select{*!*/
+/*!*  box-shadow: none;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang{*!*/
+/*!*  background: #fff;*!*/
+/*!*  margin: 25px 30px;*!*/
+/*!*  float: left;*!*/
+/*!*  width: 280px;*!*/
+/*!*  height: 350px;*!*/
+/*!*  transform: translateX(5%);*!*/
+/*!*  transition: all 0.5s ease-in-out;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .img-zoom{*!*/
+/*!*  width: 280px;*!*/
+/*!*  overflow: hidden;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .img-zoom img{*!*/
+/*!*  width: 280px;*!*/
+/*!*  transition: all 0.3s ease-in-out;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang:hover img{*!*/
+/*!*  transform: scale(1.05);*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .noidung-sanpham{*!*/
+/*!*  margin: 10px;*!*/
+/*!*  font-weight: 600;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .noidung-sanpham h6 a{*!*/
+/*!*  font-weight: 600;*!*/
+/*!*  color: #777;*!*/
+/*!*  transition: all 0.3s;*!*/
+/*!*  z-index: 99;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .noidung-sanpham h6 a:hover{*!*/
+/*!*  color: #3577f0;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .noidung-sanpham p{*!*/
+/*!*  font-size: 20px;*!*/
+/*!*  color: #000;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang .noidung-sanpham p span{*!*/
+/*!*  color: #d6d6d6;*!*/
+/*!*  text-decoration: line-through;*!*/
+/*!*}*!*/
+
+/*!*.section .container-section .menu-sanpham .mathang .hien-nut{*!*/
+/*!*  position: absolute;*!*/
+/*!*  color: red;*!*/
+/*!*  bottom: 95px;*!*/
+/*!*  left: 10%;*!*/
+/*!*  opacity: 0;*!*/
+/*!*  transition: all 0.4s linear;*!*/
+/*!*}*!*/
+/*!*.section .container-section .menu-sanpham .mathang:hover .hien-nut{*!*/
+/*!*  bottom: 30%;*!*/
+/*!*  opacity: 1;*!*/
+/*!*}*!*/
+/*!*.nut-1{*!*/
+/*!*  background-color: #f1f2f6;*!*/
+/*!*  border: none;*!*/
+/*!*  color: #000;*!*/
+/*!*  padding: 8px 12px;*!*/
+/*!*  text-align: center;*!*/
+/*!*  text-decoration: none;*!*/
+/*!*  display: inline-block;*!*/
+/*!*  margin: 4px 2px;*!*/
+/*!*  transition: all 0.1s linear;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*  border-radius: 3px;*!*/
+/*!*}*!*/
+/*!*.nut-1 i{*!*/
+/*!*  font-size: 16px;*!*/
+/*!*}*!*/
+/*!*.nut-1:hover{*!*/
+/*!*  transform: scale(1.05);*!*/
+/*!*}*!*/
+/*!*.nut-1 i:hover {*!*/
+/*!*  animation: nut 0.2s;*!*/
+/*!*}*!*/
+/*!*.nut-2 {*!*/
+/*!*  background-color: #ff6b81;*!*/
+/*!*  border: none;*!*/
+/*!*  color: white;*!*/
+/*!*  padding: 8px 20px;*!*/
+/*!*  text-align: center;*!*/
+/*!*  text-decoration: none;*!*/
+/*!*  display: inline-block;*!*/
+/*!*  font-size: 16px;*!*/
+/*!*  margin: 4px 2px;*!*/
+/*!*  transition: all 0.1s linear;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*  border-radius: 3px;*!*/
+/*!*}*!*/
+/*!*.nut-2:hover{*!*/
+/*!*  transform: scale(1.05);*!*/
+/*!*}*!*/
+/*!*.nut-3{*!*/
+/*!*  background-color: #f1f2f6;*!*/
+/*!*  border: none;*!*/
+/*!*  color: #000;*!*/
+/*!*  padding: 8px 12px;*!*/
+/*!*  text-align: center;*!*/
+/*!*  text-decoration: none;*!*/
+/*!*  display: inline-block;*!*/
+/*!*  margin: 4px 2px;*!*/
+/*!*  transition: all 0.1s linear;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*  border-radius: 3px;*!*/
+/*!*}*!*/
+/*!*.nut-3 i{*!*/
+/*!*  font-size: 16px;*!*/
+/*!*}*!*/
+/*!*.nut-3{*!*/
+/*!*  color: #000;*!*/
+/*!*}*!*/
+/*!*.nut-3:hover{*!*/
+/*!*  transform: scale(1.05);*!*/
+/*!*}*!*/
+/*!*.nut-3 i:hover {*!*/
+/*!*  color: #ff6b81;*!*/
+/*!*  animation: in 0.1s;*!*/
+/*!*}*!*/
+/*!*@keyframes nut{*!*/
+/*!*  0%{*!*/
+/*!*    opacity: 1;*!*/
+/*!*  }*!*/
+/*!*  100%{*!*/
+/*!*    opacity: 0;*!*/
+/*!*  }*!*/
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham .thuonghieu-text{*!*/
+/*!*  background: #fff;*!*/
+/*!*  color: #000;*!*/
+/*!*  margin-top: 35px;*!*/
+/*!*  display: flex;*!*/
+/*!*  height: 45px;*!*/
+/*!*  border-bottom: 1px solid #b2bec3;*!*/
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham .thuonghieu-text i{*!*/
+/*!*  font-size: 25px;*!*/
+/*!*  margin: 5px;*!*/
+/*!*  position: relative;*!*/
+/*!*  top: 4px;*!*/
+/*!*}*!*/
+/*!*.section .container-section .danhmuc-spham .thuonghieu-text h4{*!*/
+/*!*  position: relative;*!*/
+/*!*  top: 11px;*!*/
+/*!*  font-size: 18px;*!*/
+/*!*  font-weight: 600;*!*/
+/*!*}*!*/
+/*!*#chuyen-trang{*!*/
+/*!*  margin: 25px 45px;*!*/
+/*!*}*!*/
+/*!*.btn-trang{*!*/
+/*!*  border: none;*!*/
+/*!*  outline: none;*!*/
+/*!*  padding: 10px 16px;*!*/
+/*!*  background-color: #f1f1f1;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*}*!*/
+/*!*.ac-nut, .btn-trang:hover{*!*/
+/*!*  background-color: #000;*!*/
+/*!*  color: #fff;*!*/
+/*!*}*!*/
+/*!*#myBtn{*!*/
+/*!*  display: none;*!*/
+/*!*  position: fixed;*!*/
+/*!*  bottom: 48px;*!*/
+/*!*  right: 38px;*!*/
+/*!*  z-index: 99;*!*/
+/*!*  border: none;*!*/
+/*!*  outline: none;*!*/
+/*!*  width: 45px;*!*/
+/*!*  height: 45px;*!*/
+/*!*  background-color: #74b9ff;*!*/
+/*!*  color: #fff;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*  padding: 10px;*!*/
+/*!*  border-radius: 50%;*!*/
+/*!*  transition: all 0.2s;*!*/
+/*!*}*!*/
+/*!*#myBtn i{*!*/
+/*!*  position: absolute;*!*/
+/*!*  bottom: 10px;*!*/
+/*!*  font-size: 23px;*!*/
+/*!*  left: 11px;*!*/
+/*!*}*!*/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Hind+Madurai:wght@500&family=Noto+Sans+Limbu&family=Poppins&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#item7{
+  padding: 60px 0 20px;
+  position: relative;
+  top: -20px;
+}
+body{
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+.navigation .container-main{
+  margin-top: 100px;
+  width: 100%;
+}
+.navigation .container-main .images-nav img{
+  top: 0;
+  width: 100%;
+  height: 65px;
+}
+.navigation .container-main .menu-header{
+  width: 100%;
+  height: 205px;
+  background-color: #f8f8f8;
+}
+
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav{
+  margin-top: 40px;
+  height: 125px;
+  background: #f8f8f8;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul{
+  margin-top: 18px;
+  display: flex;
+  font-weight: 600;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .item-1{
+  color: #777;
+  margin-right: 6px;
+  transition: all 0.3s;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .item-1:hover{
+  color: #3577f0;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul li.none-item-1{
+  width: 2px;
+  background: #777;
+  height: 16px;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .active-item-1{
+  color: #3577f0;
+  transition: all 0.3s;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav ul a .active-item-1:hover{
+  color: #fff;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav .title{
+  margin-left: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+.navigation .container-main .menu-header .row.justify-content-center .cot-nav .img-menuheader img{
+  width: 130px;
+  margin-top: 20px;
+  margin-left: 590px;
+}
+/*sj*/
+.section .container-section.row{
+  margin: 0;
+  padding: 0;
+}
+.container-section.row{
+position: relative;
+  z-index: 1111111;
+}
+.section .container-section .danhmuc-spham{
+  position: relative;
+  background-color: #fff;
+  width: 215px;
+  height: 706px;
+  top: 20px;
+  left: 100px;
+  margin: 0;
+  padding: 0;
+
+}
+.section .container-section .danhmuc-spham .danhmuc-text{
+  background: #fff;
+  color: #000;
+  display: flex;
+  height: 45px;
+  border-bottom: 1px solid #b2bec3;
+}
+.section .container-section .danhmuc-spham .danhmuc-text i{
+  font-size: 30px;
+  margin: 5px;
+}
+.section .container-section .danhmuc-spham .danhmuc-text h4{
+  position: relative;
+  top: 11px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.chon-nut form label{
+  width: 100%;
+  background: #fff;
+  padding: 5px 23px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  color: #777777;
+  transition: all 0.2s;
+}
+.chon-nut form label:hover{
+  background: #f9f3f0;
+  border-right: 3px solid #ff496c;
+  cursor: pointer;
+}
+/*.option-input{*/
+/*  appearance: none;*/
+/*  position: relative;*/
+/*  top: 6px;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  height:18px;*/
+/*  width:18px;*/
+/*  transition: all 0.15s ease-out 0s;*/
+/*  background: #ffffff;*/
+/*  border: #ccc solid 1px;*/
+/*  color: #fff;*/
+/*  cursor: pointer;*/
+/*  display: inline-block;*/
+/*  margin-right: 0.2rem;*/
+/*  outline: none;*/
+/*  position: relative;*/
+/*  z-index: 1000;*/
+/*}*/
+/*.option-input:hover{*/
+/*  background:#eee;*/
+/*}*/
+/*.option-input:checked {*/
+/*  background: #3577f0;*/
+/*  border-color: #3577f0;*/
+/*}*/
+
+/*.option-input:checked::after{*/
+/*  animation: click-wave 0.65s;*/
+/*  background: #3577f0;*/
+/*  content: '';*/
+/*  display: block;*/
+/*  position: relative;*/
+/*  z-index: 100;*/
+/*}*/
+/*.option-input.radio{*/
+/*  border-radius: 50%;*/
+/*  top:3px;*/
+/*  width:18px;*/
+/*  height:18px;*/
+/*  left:-1px;*/
+/*  margin-right: 0.15rem;*/
+/*}*/
+/*.option-input.radio::after{*/
+/*  border-radius: 50%;*/
+/*}*/
+@keyframes click-wave {
+  0% {
+    height:20px;
+    width:20px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    height: 40px;
+    width: 40px;
+    margin-left: -14px;
+    margin-top: -14px;
+    opacity: 0;
+  }
+}
+.xoa-dulieu button{
+  width: 215px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 35px;
+  font-size: 20px;
+  background: #3577f0;
+  color: #fff;
+  transition: all 0.3s;
+}
+.xoa-dulieu button i{
+  position: relative;
+  top: 2px;
+  font-size: 22px;
+  transition: all 0.3s linear;
+}
+.xoa-dulieu button:hover i{
+  animation: load 1s infinite linear;
+}
+@keyframes load{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.xoa-dulieu button:hover{
+  background: #000;
+}
+.section .container-section .menu-sanpham{
+  margin-top: 20px;
+  margin-left: 150px;
+  background: #fff;
+  padding: 0;
+}
+.section .container-section .menu-sanpham .bst-box{
+  display: flex;
+  position: relative;
+  left: 550px;
+  width: 394px;
+  background: #fff;
+  height: 38px;
+}
+.section .container-section .menu-sanpham .bst-box .hienthi{
+  position: relative;
+  color: #000;
+  font-weight: 600;
+  margin-right: 25px;
+  top: 7px;
+}
+.section .container-section .menu-sanpham .bst-box .box-select .form-select{
+  box-shadow: none;
+  cursor: pointer;
+}
+.section .container-section .menu-sanpham .mathang{
+  background: #fff;
+  margin: 25px 28px;
+  float: left;
+  width: 280px;
+  height: 350px;
+  transform: translateX(5%);
+  transition: all 0.5s ease-in-out;
+}
+.section .container-section .menu-sanpham .mathang .img-zoom{
+  width: 280px;
+  overflow: hidden;
+}
+.section .container-section .menu-sanpham .mathang .img-zoom img{
+  width: 280px;
+  transition: all 0.3s ease-in-out;
+}
+.section .container-section .menu-sanpham .mathang:hover img{
+  transform: scale(1.05);
+}
+.section .container-section .menu-sanpham .mathang .noidung-sanpham{
+  margin: 10px;
+  font-weight: 600;
+}
+.section .container-section .menu-sanpham .mathang .noidung-sanpham h6 a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #777;
+  transition: all 0.3s;
+  z-index: 99;
+}
+.section .container-section .menu-sanpham .mathang .noidung-sanpham h6 a:hover{
+  color: #3577f0;
+}
+.section .container-section .menu-sanpham .mathang .noidung-sanpham p{
+  font-size: 20px;
+  color: #000;
+}
+.section .container-section .menu-sanpham .mathang .noidung-sanpham p span{
+  color: #d6d6d6;
+  text-decoration: line-through;
+}
+
+.section .container-section .menu-sanpham .mathang .hien-nut{
+  position: absolute;
+  color: red;
+  bottom: 95px;
+  left: 10%;
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+.section .container-section .menu-sanpham .mathang:hover .hien-nut{
+  bottom: 30%;
+  opacity: 1;
+}
+.nut-1{
+  background-color: #f1f2f6;
+  border: none;
+  color: #000;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.nut-1 i{
+  font-size: 16px;
+}
+.nut-1:hover{
+  transform: scale(1.05);
+}
+.nut-1 i:hover {
+  animation: nut 0.2s;
+}
+.nut-2 {
+  background-color: #ff6b81;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.nut-2:hover{
+  transform: scale(1.05);
+}
+.nut-3{
+  background-color: #f1f2f6;
+  border: none;
+  color: #000;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.nut-3 i{
+  font-size: 16px;
+}
+.nut-3{
+  color: #000;
+}
+.nut-3:hover{
+  transform: scale(1.05);
+}
+.nut-3 i:hover {
+  color: #ff6b81;
+  animation: in 0.1s;
+}
+@keyframes nut{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.section .container-section .danhmuc-spham .thuonghieu-text{
+  background: #fff;
+  color: #000;
+  margin-top: 20px;
+  display: flex;
+  height: 45px;
+  border-bottom: 1px solid #b2bec3;
+}
+.section .container-section .danhmuc-spham .thuonghieu-text i{
+  font-size: 25px;
+  margin: 5px;
+  position: relative;
+  top: 4px;
+}
+.section .container-section .danhmuc-spham .thuonghieu-text h4{
+  position: relative;
+  top: 11px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#chuyen-trang{
+  top: 45px;
+  left: 745px;
+  position: relative;
+  z-index: 111111;
+}
+.btn-trang{
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.ac-nut, .btn-trang:hover{
+  background-color: #000;
+  color: #fff;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 48px;
+  right: 38px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  width: 45px;
+  height: 45px;
+  background-color: #74b9ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+#myBtn i{
+  position: absolute;
+  bottom: 10px;
+  font-size: 23px;
+  left: 11px;
+}
+
+section .class {
+  position: relative;
+  top: 40px;
+}
+.mathang{
+display: block;
+  position: relative;
+  z-index: 11111111;
+}
+.menuuu{
+position: relative;
+  font-size: 20px;
+  top: -32px;
+  left: 84px;
+  font-weight: 600;
+}
+.section .container-section .menu-sanpham .bst-box{
+  z-index: 111111;
+}
+.menuuu span{
+  margin: 0 25px;
+  font-weight: 700;
+  color: #ff6b81;
+  font-size: 22px;
+}

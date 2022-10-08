@@ -1,0 +1,340 @@
+#item7{
+  padding: 60px 0 20px;
+  position: relative;
+  top: -20px;
+}
+.thanhtoan {
+  padding: 80px 0;
+}
+.cart{
+  display: flex;
+  justify-content: space-between;
+}
+.thanhtoan .title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  display: inline-block;
+}
+.thanhtoan .cart-clear {
+  display: inline-block;
+  font-size: 14px;
+  color: #3577f0;
+
+}
+.mb--40 {
+  margin-bottom: 40px;
+}
+.axil-product-table thead {
+  background-color: #F6F7FB;
+}
+tr{
+  border-width: 0;
+}
+.thanhtoan.axil-cart-table th:first-child{
+  padding-left: 0;
+}
+.thanhtoan thead th:first-child {
+  border-radius: 6px 0 0 6px;
+}
+.thanhtoan thead th {
+  font-size: 20px;
+  text-transform: capitalize;
+  border: none;
+  color: #292930;
+  padding: 18px 15px;
+}
+.thanhtoan.axil-cart-table th:last-child{
+  padding-right: 50px;
+}
+
+.thanhtoan thead th:last-child {
+  border-radius: 0 6px 6px 0;
+}
+.thanhtoan th:last-child{
+  text-align: right;
+}
+
+table.axil-cart-table td:first-child {
+  padding-left: 0;
+}
+.thanhtoan tbody td.product-remove {
+  min-width: auto;
+}
+.thanhtoan tbody td.product-remove .remove-wishlist {
+  display: block;
+  text-align: center;
+  height: 32px;
+  width: 32px;
+  line-height: 30px;
+  background-color: #F6F7FB;
+  border: 2px solid #F6F7FB;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #000000;
+}
+.thanhtoan tbody td.product-remove .remove-wishlist:hover {
+
+  border: 2px solid #038cf3;
+
+}
+.thanhtoan tbody td.product-thumbnail {
+  min-width: 130px;
+  width: 130px;
+}
+.thanhtoan tbody td {
+  border-top: none;
+  border-bottom: 2px solid #F6F7FB;
+  vertical-align: middle;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #777777;
+  min-width: 150px;
+}
+.thanhtoan tbody td.product-thumbnail a {
+  border-radius: 10px;
+  display: block;
+
+}
+.thanhtoan tbody td a {
+
+  text-decoration: none;
+  color: black;
+}
+.thanhtoan tbody td a:hover {
+
+
+  color:#038cf3;
+}
+.thanhtoan tbody td.product-thumbnail a img {
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+table.axil-cart-table td:last-child {
+  padding-right: 16px;
+}
+ .thanhtoan td:last-child {
+  text-align: right;
+}
+
+.axil-product-table.axil-cart-table .pro-qty {
+  width: auto;
+}
+.pro-qty {
+  width: 130px;
+  border-radius: 50px;
+}
+.axil-product-table.axil-cart-table .pro-qty .qtybtn {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.pro-qty .qtybtn {
+  width: 32px;
+  display: block;
+  float: left;
+  line-height: 26px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  height: 32px;
+  background: #f6f7fb;
+  border-radius: 50%;
+  transition: .3s;
+
+}
+.pro-qty .qtybtn:hover{
+  border: 1px solid #038cf3;
+}
+.axil-product-table.axil-cart-table .pro-qty input {
+  margin: 0 -5px;
+  min-width: 95px;
+}
+
+.pro-qty input {
+  width: 28px;
+  float: left;
+  border: 1px solid #858282;
+  height: 32px;
+  line-height: 30px;
+  padding: 0;
+  border-radius: 6px;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 12px;
+  color: #27272e;
+  outline: none;
+}
+
+.thanhtoan .giamgia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.thanhtoan .product-cupon {
+  flex-wrap: nowrap;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.thanhtoan .product-cupon input {
+  width: 100%;
+  padding: 0;
+  border-bottom: 2px solid #efefef;
+  border-radius: 0;
+}
+input[type=text]{
+  font-size: 14px;
+  font-weight: 400;
+  height: auto;
+  line-height: 60px;
+  background: #fff;
+outline: none;
+  box-shadow: none;
+
+
+  border-radius:6px;
+}
+
+input[type=text]{
+  border: none;
+}
+.thanhtoan .product-cupon .product-cupon-btn {
+  margin-left: 20px !important;
+}
+.thanhtoan .product-cupon .axil-btn {
+  width: auto;
+  border-width: 2px;
+  border-color: #efefef;
+  background-color: rgba(0,0,0,0);
+}
+.thanhtoan .product-cupon .axil-btn:hover{
+  background: #0b77e5;
+  color: white;
+}
+button.axil-btn.btn-outline {
+  border: 2px solid #292930;
+}
+
+a.axil-btn, button.axil-btn {
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 700;
+  display: inline-block;
+  padding: 16px 38px;
+  position: relative;
+  transition: all .3s ease-in-out;
+  z-index: 1;
+}
+.thanhtoan .update-btn {
+  text-align: right;
+}
+.thanhtoan .update-btn a{
+  text-decoration: none;
+  color: black;
+}
+.thanhtoan .update-btn .axil-btn {
+  border-width: 2px;
+  border-color: #efefef;
+}
+a.axil-btn.btn-outline {
+  border: 2px solid #292930;
+}
+.thanhtoan .update-btn .axil-btn:hover{
+  background: #0b77e5;
+  color: white;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.mt--80 {
+  margin-top: 80px;
+}
+.axil-order-summery {
+  background-color: #f9f3f0;
+  border-radius: 6px;
+  padding: 40px;
+}
+.axil-order-summery .title {
+  font-weight: 500;
+}
+.mb--20 {
+  margin-bottom: 20px;
+}
+.mb--30 {
+  margin-bottom: 30px;
+}
+.axil-order-summery .summery-table tbody {
+  border-top: none !important;
+}
+.table>tbody {
+  vertical-align: inherit;
+}
+.axil-order-summery .summery-table tbody td {
+  border-bottom: 1px solid;
+  border-color: rgba(101,105,115,.2);
+  font-size: 16px;
+  font-weight: 500;
+  color: #292930;
+  padding: 18px 15px 18px 0;
+  min-width: 180px;
+  text-align: left;
+}
+.axil-order-summery .summery-table .order-shipping .input-group {
+  margin-bottom: 10px;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+input[type=radio] {
+
+  position: absolute;
+  padding: 0;
+}
+input{
+
+  height: 24px;
+  width: 18px;
+}
+.axil-order-summery .summery-table .order-shipping .input-group label {
+  color: #292930;
+  font-weight: 400;
+}
+input[type=checkbox]~label, input[type=radio]~label {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+
+
+  padding-left: 28px;
+  cursor: pointer;
+}
+label {
+  display: inline-block;
+}
+a.axil-btn.btn-bg-primary{
+  background-color: #3577f0;
+  color: white;
+  text-decoration: none;
+}
+.axil-order-summery .checkout-btn {
+  width: 100%;
+  text-align: center;
+}
+

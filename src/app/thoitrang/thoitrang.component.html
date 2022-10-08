@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Trang Chủ - Code One Min</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header >
+  <div class="conternor">
+    <div class="dautrang">
+      <p>CODE ONE MIN</p>
+    </div>
+    <div CLASS="GIOHANG">
+      <span><a href="#" ><i class="fa-solid fa-bag-shopping"></i></a></span>
+      <a href="#" ><p><b>GIỎ HÀNG / <span id="cong">0</span></b></p></a>
+
+    </div>
+
+    <div class="phone">
+      <ul>
+        <li><span> <b>Hotilne:0962.717.404</b></span></li>
+        <li><span> <b>Hotilne:0336.827.498</b></span></li>
+      </ul>
+
+    </div>
+    <div class="search-box">
+      <form action="" class="search" method="post">
+        <input type="text" required class="search-tm" placeholder="Tìm kiếm sản phẩm...">
+        <button type="submit"  class="search-btn">
+          <a href="#" class="search-txt"><i class="fas fa-search"></i></a>
+        </button>
+      </form>
+    </div>
+
+  </div>
+</header>
+<nav>
+  <div class="menu-container">
+    <div class="menu">
+      <ul>
+        <li><a href="phukien.html">Phụ Kiện</a></li>
+        <li><a href="#">Giày, dép</a>
+          <ul>
+            <li><a href="#">Giày</a>
+              <ul>
+                <li><a href="giaymlb.html">Giày MLB</a></li>
+                <li><a href="giaynike.html">Giày NIKE</a></li>
+                <li><a href="giayjd.html">JORDAN</a></li>
+                <li><a href="giayvans.html">Giày VANS</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dép</a>
+              <ul>
+                <li><a href="dmlb.html">MLB</a></li>
+                <li><a href="dnike.html">NIKE</a></li>
+
+
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+        <li><a href="balo.html">Balo,túi</a>
+
+        </li>
+
+        <li><a href="#">Áo Quần</a>
+          <ul>
+            <li><a href="#">Áo</a>
+              <ul>
+                <li><a href="Clowz.html">CLOWNZ T-Shirt</a></li>
+                <li><a href="polo.html">Polo</a></li>
+                <li><a href="aohoodie.html"> Sweater & Hoodie</a></li>
+
+              </ul>
+            </li>
+
+            <li><a href="#">Quần</a>
+              <ul>
+                <li><a href="quanjean.html">Quần JEAN</a></li>
+                <li><a href="quanau.html">Quần Âu Nam</a></li>
+                <li><a href="quanshort.html">Quần Short</a></li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+        <li><a href="sale.html">Sale</a></li>
+        <li><a href="sanphammoi.html">Sản Phẩm Mới</a>
+        <li><a href="thoitrangmoi.html">Trang Chủ</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+</nav>
+<section class="container">
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <a><img src="assets/img/banner_1.png" style="width:100%"></a>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a><img src="assets/img/banner_2.png" style="width:100%"></a>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a><img src="assets/img/banner_3.jpg" style="width:100%"></a>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <!--  //T-shirt-->
+  <div class="menuT-Shirt">
+    <h1 id="ao">CLOWNZ T-Shirt</h1>
+
+    <div class="menu_ts">
+      <a href="#">
+        <img src="assets/img/t1.png"/>
+        <p >C LETTER T-SHIRT</p>
+        <p><span>379.000₫</span></p>
+        <!--      <p><button><a href="#" onclick="tongcong()">+ Thêm vào giỏ hàng</a></button></p>-->
+        <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+      </a>
+      <!--      <p><button>+ Thêm vào giỏ hàng</button></p>-->
+    </div>
+
+    <div class="menu_ts">
+      <a href="#">
+        <img src="img/t2.png">
+        <p>HOMEMADE RAPPER T-SHIRT</p>
+        <p><span>350.000₫</span></p>
+        <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+      </a>
+    </div>
+
+    <div class="menu_ts">
+      <a href="#">
+        <img src="img/t3.png">
+        <p>KING OF SCHOOL T-SHIRT</p>
+        <p><span>349.000₫</span></p>
+
+        <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+
+      </a>
+    </div>
+
+    <div class="menu_ts">
+      <a href="#">
+        <img src="img/t4.png" >
+        <p>Z-BOT ICON T-SHIRT</p>
+        <p><span>349.000₫</span></p>
+        <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+
+      </a>
+    </div>
+
+    <div class="menu_ts">
+      <a href="#">
+        <img src="img/t5.png" >
+        <p>Z-BOT APOCALYPSE T-SHIRT</p>
+        <p><span>349.000₫</span></p>
+        <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+      </a>
+    </div>
+    <!-- Polo -->
+    <div class="menuPolo">
+
+      <h1>TEELAB - Polo</h1>
+
+      <div class="menu_pl">
+        <a href="#">
+          <img src="img/pl1.png" >
+          <p>Teelab Kitten Embroidered</p>
+          <p><span>220.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pl">
+        <a href="#">
+          <img src="img/pl2.png" >
+          <p>Teelab Essential</p>
+          <p><span>220.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pl">
+        <a href="#">
+          <img src="img/pl3.png" >
+          <p>Teelab Essentials Line</p>
+          <p><span>220.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pl">
+        <a href="#">
+          <img src="img/pl4.png" >
+          <p>Teelab Vintage</p>
+          <p><span>220.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pl">
+        <a href="#">
+          <img src="img/pl5.png" >
+          <p>Teelab Special Collection</p>
+          <p><span>220.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+    </div>
+    <!-- Sweater -->
+    <div class="menuSweater">
+
+      <h1>IMA GOD BREAKER - Sweater</h1>
+
+      <div class="menu_sw">
+        <a href="#">
+          <img src="img/sw_1.png" >
+          <p>iGB Blue Graffiti Sweater</p>
+          <p><span>410.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sw">
+        <a href="#">
+          <img src="img/sw_2.png" >
+          <p>iGB White Graffiti Sweater</p>
+          <p><span>410.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sw">
+        <a href="#">
+          <img src="img/sw_3.png" >
+          <p>iGB Metallic Gray Graffiti</p>
+          <p><span>199.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+
+      <div class="menu_sw">
+        <a href="#">
+          <img src="img/sw_4.png" >
+          <p>iGB Tet Nguyen Dan White</p>
+          <p><span>450.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sw">
+        <a href="#">
+          <img src="img/sw_5.png" >
+          <p>iGB Black Graffiti Sweater</p>
+          <p><span>410.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+    </div>
+    <!--    hang quan-->
+    <div class="menuPants">
+
+      <h1>Pants</h1>
+
+      <div class="menu_pt" id="quan">
+        <a href="#">
+          <img src="img/pt1.jpg" >
+          <p>Polyester - THE BAD GOD</p>
+          <p><span>190.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pt">
+        <a href="#">
+          <img src="img/pt3.jpg" >
+          <p>Ripped Bandana Patched</p>
+          <p><span>522.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <!-- Quan -->
+      <div class="menu_pt">
+        <a href="#">
+          <img src="img/pt2.jpg" >
+          <p>Casual Cotton Regular</p>
+          <p><span>480.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pt">
+        <a href="#">
+          <img src="img/pt4.jpg" >
+          <p>Ripped Skinny</p>
+          <p><span>480.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_pt">
+        <a href="#">
+          <img src="img/pt5.jpg" >
+          <p>Ripped Flared Jean</p>
+          <p><span>580.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+    </div>
+    <!-- Giay -->
+    <div class="menuShoes">
+
+      <h1 >Shoes</h1>
+
+      <div class="menu_sh" id="giay">
+        <a href="#">
+          <img src="img/g_1.png" >
+          <p>Vans Slip On</p>
+          <p><span>1.450.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sh">
+        <a href="#">
+          <img src="img/g_22.png" >
+          <p>MLB Big Ball Chunky New York</p>
+          <p><span>1.470.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sh">
+        <a href="#">
+          <img src="img/g_3.png" >
+          <p>Vans Old Skool Classic</p>
+          <p><span>1.750.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sh">
+        <a href="#">
+          <img src="img/g_4.png" >
+          <p>Adidas Superstar "White Red"</p>
+          <p><span>1.450.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_sh">
+        <a href="#">
+          <img src="img/g_5.png" >
+          <p>Nike Air Force 1 Multicolor</p>
+          <p><span>3.250.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+    </div>
+
+    <div class="menuBag"  >
+
+      <h1 >BAG & WALLET</h1>
+
+      <div class="menu_bg" id="balo">
+        <a href="#">
+          <img src="img/bg1.jpg" >
+          <p >Vietgangz - Mini Bag</p>
+          <p><span>295.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/bg22.png" >
+          <p>DKMV - Logo Backpack</p>
+          <p><span>229.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/bg3.jpg" >
+          <p>FRIENDS FOREVER Suede Ego</p>
+          <p><span>189.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/bg44.png" >
+          <p>BACKPACK SS2 ARMOUS</p>
+          <p><span>490.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/bg5.png" >
+          <p>CLOWNZ - CRYSTAL CLEAR</p>
+          <p><span>399.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/bg4.png" >
+          <p>BIRDYBAG - SILLY ME</p>
+          <p><span>252.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/bg2.png" >
+          <p>SATCHEL CLOWNZ X SGS</p>
+          <p><span>450.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/w2.png" >
+          <p>BIRDYBAG - Wallet Purple</p>
+          <p><span>280.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/w4.png" >
+          <p>SLYDER - REFLECTIVE </p>
+          <p><span>199.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+
+      <div class="menu_bg">
+        <a href="#">
+          <img src="img/w5.png" >
+          <p>DKMV - Long Wallet Cow</p>
+          <p><span>190.000₫</span></p>
+          <p><button onclick="tongcong()"> Thêm vào giỏ hàng</button></p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div  class="footer-distributed">
+    <div class="footer-left">
+
+      <h3>CODE<span>One Min</span></h3>
+
+      <p class="footer-links">
+        <a href="#" class="link-1">Home</a>
+
+        <a href="#">Blog</a>
+
+        <a href="#">Pricing</a>
+
+        <a href="#">About</a>
+
+        <a href="#">Faq</a>
+
+        <a href="#">Contact</a>
+      </p>
+      <p class="kinhnhiem">VỚI HƠN 25 NĂM CHUYÊN PHÂN PHỐI SỈ, LẺ HÀNG THỜI TRANG CHÍNH HÃNG TRÊN TOÀN QUỐC.</p>
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+      <br/>
+      <br/>
+      <br/>
+
+
+    </div>
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map"></i>
+        <p><span>Số 8A, Tôn Thất Thuyết, Mỹ Đình, Hà Nội</span></p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+84.123.456.789</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:codeonemin@gmail.com">codeonemin@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>ĐĂNG KÝ NHẬN TIN</span>
+        Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây.
+      </p>
+      <br/>
+      <form >
+
+        <input type="text"  required placeholder="Nhập email của bạn tại đây..." name="email" >
+        <br/>
+        <br/>
+        <button type="submit" class="dangki">ĐĂNG KÍ NGAY </button>
+      </form>
+
+
+    </div>
+    <div class="trungtam">
+      <ul>
+        <li class="footer-company-name">CODE One Min © 2022. Thiết kế và phát triển bởi CODEONEMIN</li>
+        <li class="footer-links1">
+
+          <a href="#" class="link-1">Chính sách bảo mật</a>
+
+          <a href="#">Điều khoản sử dụng</a>
+
+          <a href="#">Câu hỏi thường gặp</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+</html>

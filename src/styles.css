@@ -1,52 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
-*{
-  margin:0 ;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  /*text-align: left;*/
-  font-weight: 400;
-  line-height: 1.35;
-  background: radial-gradient(circle, rgb(203, 158, 203) 0%, rgba(148,187,233,1) 100%);
+
+
+a{
+  text-decoration: none;
 
 }
-.conternor{
-  width: 1500px;
-  text-align: center;
-  margin: auto;
+span{
+  font-weight: 900;
+  font-size: 18px;
 }
-header{
-  background: radial-gradient(circle, rgb(203, 158, 203) 0%, rgba(148,187,233,1) 100%);
+ul li{
+  font-weight: 600;
+  font-size: 16px;
+
+  list-style: none;
+
 }
-nav{
-  background: radial-gradient(circle, rgb(203, 158, 203) 0%, rgba(148,187,233,1) 100%);
-  margin: auto;
-  padding: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-.daude h1{
-  color: #fafafa;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 50px;
+.sidebar{
+  width: 220px;
+  margin-left: 0;
+  background-color: rgb(241, 241, 241);
 }
-.diadiem{
-  border: 3px solid #5e5858;
-  margin: 50px 350px;
-  padding: 20px;
-  width: calc(30% - 25px) ;
-  line-height: 30px;
+.icon p a{
+  color: #000;
 }
-.canle{
-  text-align: left;
+.menu .main a{
+  color: #000;
 }
-.hieuung button:hover{
-  background-color: #85b9b9;
-  transform: scale(1.113);
+.menu .main li{
+  line-height: 49.2px;
+  list-style: none;
+  padding: 1px  45px;
 }
-.conternor .diadiem{
-  margin: 0px 400px;
+.menu .main li:hover{
+  background: rgb(0, 132, 255);
+  width: 220px;
+  color: #fff;
 }
-.hieuung button{
-margin: 5px 10px;
+.main .active {
+  background: rgb(0, 132, 255);
+  color: #fff;
+}
+.content{
+  border: 0.1px solid #949494;
+  height: 80px;
+}
+.main-items{
+  margin: 14px 0;
+}
+.icon-items i{
+  width: 50px;
+  padding: 10px 10px;
+  font-size: 30px;
+  background-color: rgb(190, 190, 190);
+  color: #3d3c3c;
+  border-radius: 50%;
+  margin: 0 15px;
+  float: left;
+  height: 50px;
+}
+.item p{
+  float: left;
+  margin: 0 30px;
+}
+.txt{
+  color: #949494;
+}
+.all{
+  margin: -400px 220px;
 }
 

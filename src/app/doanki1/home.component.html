@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <title>Layout</title>
+</head>
+<style>
+  #item1{
+    background-image: url(assets/img/hhh.jpg);
+
+  }
+  #item2{
+    background-image: url(assets/img/kkk.jpg);
+  }
+  #item3{
+    background-image: url(assets/images/tainghemsh.jpg);
+  }
+  #item4{
+    background-image: url(assets/img/keyborad_akko.jpg);
+  }
+  #item5{
+    background-image: url(assets/img/taycamps5.jpg);
+  }
+  #item6{
+    background-image: url(assets/img/mouse.jpg);
+  }
+  #item7{
+    background-image:url("assets/img/navbar.png") ;
+  }
+</style>
+<body>
+
+<!--  <div class="header axil-header header-style-1" >-->
+
+<!--    <div class="axil-header-top">-->
+<!--      <div class="container " >-->
+<!--        <div class="row align-items-center">-->
+<!--          <div class="col-sm-6">-->
+<!--            <div class="header-top-dropdown">-->
+<!--              <div class="dropdown">-->
+<!--                <button type="button" >English</button>-->
+<!--                <ul class="dropdown-menu" style="">-->
+<!--                  <li><a class="dropdown-item" href="#">English</a></li>-->
+<!--                  <li><a class="dropdown-item" href="#">Arabic</a></li>-->
+<!--                  <li><a class="dropdown-item" href="#">Spanish</a></li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--              <div class="dropdown">-->
+<!--                <button  type="button"  >-->
+<!--                  USD-->
+<!--                </button>-->
+<!--                <ul class="dropdown-menu" style="">-->
+<!--                  <li><a class="dropdown-item" href="#">USD</a></li>-->
+<!--                  <li><a class="dropdown-item" href="#">AUD</a></li>-->
+<!--                  <li><a class="dropdown-item" href="#">EUR</a></li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-sm-6">-->
+<!--            <div class="header-top-link">-->
+<!--              <ul class="quick-link">-->
+<!--                <li><a href="#">Help</a></li>-->
+<!--                <li><a href="#">Join Us</a></li>-->
+<!--                <li><a href="#">Sign In</a></li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="axil-mainmenu" >-->
+<!--    <div class="container" >-->
+
+<!--      <header class="header-navbar " >-->
+<!--        <div class="header-brand">-->
+<!--          <a routerLink="/home1" class="logo logo-dark">-->
+<!--            <img src="assets/img/logo1.jpg" alt="logo">-->
+<!--          </a>-->
+<!--        </div>-->
+
+<!--        <div class="header-main-nav" style="width:90% ">-->
+<!--          &lt;!&ndash; Start Mainmanu Nav &ndash;&gt;-->
+<!--          <nav class="mainmenu-nav">-->
+
+<!--            <ul class="mainmenu">-->
+<!--              <li class="menu-item-has-children menu-item-open">-->
+<!--                <a href="#">Home</a>-->
+
+<!--              </li>-->
+<!--              <li class="menu-item-has-children">-->
+<!--                <a href="#">Shop<i class='bx bx-chevron-down' ></i></a>-->
+<!--                <ul>-->
+<!--                  <li>Home 1</li>-->
+<!--                  <li>Home 2</li>-->
+<!--                  <li>Home 3</li>-->
+<!--                  <li>Home 4</li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li class="menu-item-has-children">-->
+<!--                <a  href="#">Pages<i class='bx bx-chevron-down' ></i></a>-->
+<!--                <ul>-->
+<!--                  <li>Home 1</li>-->
+<!--                  <li>Home 2</li>-->
+<!--                  <li>Home 3</li>-->
+<!--                  <li>Home 4</li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li><a href="#">About</a></li>-->
+<!--              <li class="menu-item-has-children">-->
+<!--                <a href="#">Blog</a>-->
+
+<!--              </li>-->
+<!--              <li>-->
+<!--                <a href="#">Contact</a>-->
+
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </nav>-->
+<!--          &lt;!&ndash; End Mainmanu Nav &ndash;&gt;-->
+<!--        </div>-->
+
+<!--        <div class="header-action">-->
+<!--          <ul class="action-list">-->
+<!--            <li class="search">-->
+
+<!--              <label for="open">-->
+<!--                <i class='bx bx-search'></i>-->
+<!--              </label>-->
+<!--            </li>-->
+<!--            <li class="wishlist">-->
+<!--              <a href="#">-->
+<!--                <i class='bx bx-like'></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li class="shopping-cart">-->
+<!--              <a href="#" >-->
+<!--                <i class='bx bx-shopping-bag' ></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li class="my-account">-->
+<!--              <a href="#">-->
+<!--                <i class='bx bx-user'></i>-->
+<!--              </a>-->
+
+<!--            </li>-->
+
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="nav-search">-->
+<!--          <input type="checkbox" name="open" id="open">-->
+<!--          <form action="" class="search-form" role="search">-->
+<!--            <input autocomplete="off" class="search-input" name="q" placeholder="Search" type="search" value="">-->
+<!--            <input class="search-action" type="submit" value="Ok">-->
+<!--          </form>-->
+<!--        </div>-->
+<!--      </header>-->
+
+<!--    </div>-->
+
+
+
+<!--    </div>-->
+
+<!--  </div>-->
+
+<nav class="section navigation" onclick="closeNav()">
+  <div class="container1">
+  <div class="container2">
+    <div id="slide">
+      <div class="item" id="item1">
+        <div class="content" >
+          <div class="name">
+
+            <i class='bx bxs-hot'></i> Hot Deal In This Week
+          </div>
+          <div class="des1">Genuine Airpods Pro</div>
+          <div class="zoom">
+          <button routerLink="/menu/2"  (click)="onactive()"><i class='bx bx-cart'></i>Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" id="item2">
+      <div class="content">
+        <div class="name"><i class='bx bxs-hot'></i> Hot Deal In This Week</div>
+        <div class="des2">Smart Digital Watch</div>
+        <div class="zoom">
+        <button routerLink="/menu/4"  (click)="onactive()"><i class='bx bx-cart'></i>Shop Now</button>
+          </div>
+      </div>
+    </div>
+    <div class="item" id="item3">
+    <div class="content">
+      <div class="name"><i class='bx bxs-hot'></i> Hot Deal In This Week</div>
+      <div class="des3">Marshall Major 3 Headphone</div>
+      <div class="zoom">
+      <button routerLink="/menu/2"  (click)="onactive()"><i class='bx bx-cart'></i>Shop Now</button>
+        </div>
+    </div>
+  </div>
+  <div class="item" id="item4">
+  <div class="content">
+    <div class="name"><i class='bx bxs-hot'></i> Hot Deal In This Week</div>
+    <div class="des4">Mechanical keyboard</div>
+    <div class="zoom">
+      <button routerLink="/menu/3"  (click)="onactive()"><i class='bx bx-cart'></i>Shop Now</button>
+    </div>
+  </div>
+  </div>
+  <div class="item" id="item5">
+  <div class="content">
+    <div class="name"><i class='bx bxs-hot'></i> Hot Deal In This Week</div>
+    <div class="des5">Sony PS4 Dualshock</div>
+    <div class="zoom">
+      <button routerLink="/menu/6"  (click)="onactive()"><i class='bx bx-cart'></i>Shop Now</button>
+    </div>
+  </div>
+  </div>
+  <div class="item" id="item6">
+  <div class="content">
+    <div class="name"><i class='bx bxs-hot'></i> Hot Deal In This Week</div>
+    <div class="des6">Logitic mouse new</div>
+    <div class="zoom">
+      <button routerLink="/menu/3"  (click)="onactive()"><i class='bx bx-cart'></i>Shop Now</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="buttons">
+    <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+    <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+  </div>
+
+  </div>
+  </div>
+
+</nav>
+
+<section class="section main" style="background-color: #f9f3f0!important;">
+  <div class="container">
+  <div id="container3">
+    <div class="conten1">
+      <div class="name1">
+        <i class='bx bx-purchase-tag-alt' ></i> Categories
+      </div>
+      <div class="chung">
+        <div class="chung1">
+      <h1 class="des8">Browse by Category</h1>
+        </div>
+        <div class="chung2">
+      <button class="chung3" id="prev1" style=""><i class='bx bx-left-arrow-alt' ></i></button>
+        <button class="chung3" id="next1" style=""><i class='bx bx-left-arrow-alt bx-rotate-180' ></i></button>
+        </div>
+        </div>
+    </div>
+    <div id="fromslist">
+    <div id="sile1">
+    <div class="mot1">
+    <div class="item1" >
+      <a href="#" tabindex="0">
+        <img class="img-fluid" src="assets/img/phone.png" alt="product categorie">
+        <h6 class="cat-title">Phones</h6>
+      </a>
+    </div>
+      </div>
+
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/mt.png" alt="product categorie">
+            <h6 class="cat-title">Computers</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/elec-11.png" alt="product categorie">
+            <h6 class="cat-title">Accessories</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/latop.png" alt="product categorie">
+            <h6 class="cat-title">Laptops</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a routerLink="/menu/5"  (click)="onactive()" tabindex="0">
+            <img class="img-fluid" src="assets/img/manmt.png" alt="product categorie">
+            <h6 class="cat-title">Montiors</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a routerLink="/menu"  (click)="onactive()" tabindex="0">
+            <img class="img-fluid" src="assets/img/net.png" alt="product categorie">
+            <h6 class="cat-title">Networking</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a routerLink="/menu/6"  (click)="onactive()" tabindex="0">
+            <img class="img-fluid" src="assets/img/pc.png" alt="product categorie">
+            <h6 class="cat-title">PC Gameing</h6>
+          </a>
+        </div>
+      </div>
+
+      <div class="mot1">
+        <div class="item1" >
+          <a routerLink="/menu/4"  (click)="onactive()" tabindex="0">
+            <img class="img-fluid" src="assets/img/sm.png" alt="product categorie">
+            <h6 class="cat-title">Smartches</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a routerLink="/menu/2"  (click)="onactive()" tabindex="0">
+            <img class="img-fluid" src="assets/img/hed.png" alt="product categorie">
+            <h6 class="cat-title">HeadPhone</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/came.png" alt="product categorie">
+            <h6 class="cat-title">Camera & Videos</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/pc.png" alt="product categorie">
+            <h6 class="cat-title">Video Games</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/sm.png" alt="product categorie">
+            <h6 class="cat-title">Sports</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/mt.png" alt="product categorie">
+            <h6 class="cat-title">PC Gamesing</h6>
+          </a>
+        </div>
+      </div>
+      <div class="mot1">
+        <div class="item1" >
+          <a href="#" tabindex="0">
+            <img class="img-fluid" src="assets/img/phone.png" alt="product categorie">
+            <h6 class="cat-title">Android</h6>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    </div>
+    <div class="sectionone">
+      <div class="noidung">
+        <div class="noidung1">
+          <div class="name1">
+            <i class='bx bx-headphone'></i> Don’t Miss!!
+          </div>
+
+          <div class="chung1">
+            <h1 class="des8">Enhance Your Music Experience</h1>
+          </div>
+        </div>
+
+        <div class="noidung2">
+          <img src="assets/img/anhtainghe.png" alt="anhtainghe">
+        </div>
+
+      </div>
+
+      <div class="time">
+        <div class="day">
+          <div>
+            <div class="countdown-number">0</div>
+            <div class="countdown-unit">Day</div>
+          </div>
+        </div>
+        <div class="day">
+          <div>
+            <div class="countdown-number">00</div>
+            <div class="countdown-unit">Hrs</div>
+          </div>
+        </div>
+        <div class="day">
+          <div>
+            <div class="countdown-number">00</div>
+            <div class="countdown-unit">Min</div>
+          </div>
+        </div>
+        <div class="day">
+          <div>
+            <div class="countdown-number">00</div>
+            <div class="countdown-unit">Sec</div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="but">
+      <a href="#" class="axil-btn btn-bg-primary">Check it Out!</a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <sonfpt></sonfpt>
+
+
+
+
+  <div class="banchay">
+    <div class="title-text">
+      <span><i class='bx bxs-star' ></i>Most Sold</span>
+      <h1>Most Sold in COM Electronic Store</h1>
+    </div>
+    <div class="row justify-content-evenly">
+      <div class="col-4" *ngFor="let m of sanpham1; let i =index;">
+        <div class="img-sanpham">
+          <a routerLink="/chitiet/{{sanpham1[i].id}}" (click)="onactive()"><img src="{{sanpham1[i].picture}}" alt=""/></a>
+        </div>
+        <div class="banchay-content">
+          <div class="banchay-star">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bx-star' ></i>
+            <p>10+ <span>Reviews</span></p>
+          </div>
+
+          <a routerLink="/chitiet/{{sanpham1[i].id}}" (click)="onactive()"><h6 class="tensanpham">{{sanpham1[i].title}}</h6></a>
+          <h4 class="giatien">${{sanpham1[i].price}} <span> ${{sanpham1[i].discount}}</span></h4>
+          <div class="nut-chucnang">
+            <button routerLink="/chitiet/{{sanpham1[i].id}}" (click)="onactive()" type="button"><i class='bx bx-cart' ></i></button>
+            <button routerLink="/blog" type="button"><i class='bx bx-heart' ></i></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="chinhsach">
+    <div class="title-text2">
+      <span><i class='bx bx-like'></i>Why Us</span>
+      <h1>Why People Choose Us</h1>
+    </div>
+    <div class="row justify-content-evenly">
+      <div class="icon-text-box col-2">
+        <div class="icons-png">
+          <img src="./assets/images/icons1.png" alt=""/>
+          <h6>Fast & Secure Delivery</h6>
+        </div>
+      </div>
+      <div class="icon-text-box col-2">
+        <div class="icons-png">
+          <img src="./assets/images/icons2.png" alt=""/>
+          <h6>100% Guarantee On Product</h6>
+        </div>
+      </div>
+      <div class="icon-text-box col-2">
+        <div class="icons-png">
+          <img src="./assets/images/icons3.png" alt=""/>
+          <h6>24 Hour Return Policy</h6>
+        </div>
+      </div>
+      <div class="icon-text-box col-2">
+        <div class="icons-png">
+          <img src="./assets/images/icons4.png" alt=""/>
+          <h6>24 Hour Return Policy</h6>
+        </div>
+      </div>
+      <div class="icon-text-box col-2">
+        <div class="icons-png">
+          <img src="./assets/images/icons5.png" alt=""/>
+          <h6>Professional Team</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="img-poster" style="height: 240px">
+    <div class="row justify-content-evenly">
+      <div class="poster col-4">
+        <a href="#">
+          <img src="./assets/images/poster-01.png" alt=""/>
+        </a>
+        <div class="text-poster">
+          <h3>Rich sound, for less.</h3>
+          <a href="#">Collections <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+      </div>
+      <div class="poster col-4">
+        <a href="#">
+          <img src="./assets/images/poster-02.png" alt=""/>
+        </a>
+        <div class="text-poster-2">
+          <a href="#">50% Offer In Winter <i class='bx bx-right-arrow-alt'></i></a>
+          <h3>Get VR,<br/> Reality Glass.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-newsletter" style="height: 620px">
+    <div class="newsletter-wrapper">
+      <img src="assets/images/form_section.jpg" alt=""/>
+      <div class="menu-text">
+        <span><i class='bx bxs-envelope'></i>Newsletter</span>
+        <h2>Get weekly update</h2>
+      </div>
+      <div class="newsletter-form">
+        <form action="#" method="get">
+          <i class='bx bx-mail-send' ></i>
+          <input type="email" required placeholder="CodeOneMin@gmail.com"/>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+  <footer class="section footer">
+<!--    <div class="container-home">-->
+<!--      <div class="contact-icon">-->
+<!--        <div class="icon-img">-->
+<!--          <img src="./assets/images/service1.png" alt=""/>-->
+<!--        </div>-->
+<!--        <div class="content">-->
+<!--          <h6>Fast & Secure Delivery</h6>-->
+<!--          <p>Chưa nghĩ ra</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="contact-icon">-->
+<!--        <div class="icon-img">-->
+<!--          <img src="./assets/images/service2.png" alt=""/>-->
+<!--        </div>-->
+<!--        <div class="content">-->
+<!--          <h6>Money Back Guarantee</h6>-->
+<!--          <p>Within 10 days.</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="contact-icon">-->
+<!--        <div class="icon-img">-->
+<!--          <img src="./assets/images/service3.png" alt=""/>-->
+<!--        </div>-->
+<!--        <div class="content">-->
+<!--          <h6>24 Hour Return Policy</h6>-->
+<!--          <p>Chưa nghĩ </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="contact-icon">-->
+<!--        <div class="icon-img">-->
+<!--          <img src="./assets/images/service4.png" alt=""/>-->
+<!--        </div>-->
+<!--        <div class="content">-->
+<!--          <h6>Pro Quality Support</h6>-->
+<!--          <p>24/7 Live support.</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <hr>-->
+<!--      <div class="row">-->
+<!--        <div class="col-3">-->
+<!--          <h5>Support</h5>-->
+<!--          <ul>-->
+<!--            <li><a href="https://www.google.com/maps/place/FPT+Aptech+H%C3%A0+N%E1%BB%99i+-+H%E1%BB%87+Th%E1%BB%91ng+%C4%90%C3%A0o+T%E1%BA%A1o+L%E1%BA%ADp+Tr%C3%ACnh+Vi%C3%AAn+Qu%E1%BB%91c+T%E1%BA%BF+(Since+1999)/@21.0288201,105.780108,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab86cece9ac1:0xa9bc04e04602dd85!8m2!3d21.0288201!4d105.7822967?hl=vi">-->
+<!--              8A, Ton That Thuyet, Nam Tu Liem, Ha Noi</a></li>-->
+<!--            <li><i class='bx bx-envelope'></i> <a href="mailto:codeonemin@gmail.com">codeonemin@gmail.com</a></li>-->
+<!--            <li><i class='bx bx-phone'></i> <a href="tel:+123 456 7890">+123 456 7890</a></li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="col-3">-->
+<!--          <h5>Account</h5>-->
+<!--          <ul>-->
+<!--            <li><a href="">My Account</a></li>-->
+<!--            <li><a href="">Login / Register</a></li>-->
+<!--            <li><a href="">Cart</a></li>-->
+<!--            <li><a href="">Wishlist</a></li>-->
+<!--            <li><a href="">Shop</a></li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="col-3">-->
+<!--          <h5>Quick Link</h5>-->
+<!--          <ul>-->
+<!--            <li><a href="">Privacy Policy</a></li>-->
+<!--            <li><a href="">Terms Of Use</a></li>-->
+<!--            <li><a href="">FAQ</a></li>-->
+<!--            <li><a href="">Contact</a></li>-->
+<!--          </ul>-->
+<!--        </div>-->
+<!--        <div class="col-3">-->
+<!--          <h5>Download App</h5>-->
+<!--          <div class="qr-code">-->
+<!--            <p>Save $3 With App & New User only</p>-->
+<!--            <img src="./assets/images/qrcode_CodeOneMin.png" alt=""/>-->
+<!--            <div class="link-app">-->
+<!--              <a href=""><img src="./assets/images/app-store.png" alt=""/></a>-->
+<!--              <a href=""><img src="./assets/images/play-store.png" alt=""/></a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <hr class="hr-2"/>-->
+<!--      <div class="row">-->
+<!--        <div class="social-icon col-3">-->
+<!--          <div class="menu-icons">-->
+<!--            <a href=""><i class='bx bxl-facebook-circle'></i></a>-->
+<!--            <a href=""><i class='bx bxl-instagram-alt'></i></a>-->
+<!--            <a href=""><i class='bx bxl-twitter' ></i></a>-->
+<!--            <a href=""><i class='bx bxl-linkedin-square'></i></a>-->
+<!--            <a href=""><i class='bx bxl-discord-alt' ></i></a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="copy-right col-5">-->
+<!--          <p>© 2022 by <a href="#">Code One Min</a>. All rights reserved.</p>-->
+<!--        </div>-->
+<!--        <div class="payment col-4">-->
+<!--          <h6>Accept For</h6>-->
+<!--          <div class="cart-img">-->
+<!--            <img src="./assets/images/cart-1.png" alt=""/>-->
+<!--            <img src="./assets/images/cart-2.png" alt=""/>-->
+<!--            <img src="./assets/images/cart-3.png" alt=""/>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-to-top'></i></button>
+</body>
+</html>

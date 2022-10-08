@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+
+  <section class="section main" style="background-color: #f9f3f0!important;">
+    <div class="baongoai" style="background: white">
+    <div class="container">
+      <div class="menu-text">
+        <span><i class='bx bxs-shopping-bag'></i>Our Products</span>
+        <h2>Explore our Products</h2>
+      </div>
+      <div class="box-hover" *ngFor="let m of danhsach | paginate: { itemsPerPage: 8, currentPage: p }">
+        <a routerLink="/chitiet/{{m.id}}" (click)="onactive()"><img class="img-change" src="{{m.picture}}" alt=""></a>
+        <a routerLink="/chitiet/{{m.id}}" (click)="onactive()"><img src="{{m.picture}}" alt=""></a>
+        <div class="show">
+          <button routerLink="/chitiet/{{m.id}}" (click)="onactive()" class="button1"><i class='bx bx-show-alt'></i></button>
+          <button class="button2" routerLink="/cart" (click)="onactive()">Add to Cart</button>
+          <button class="button3"><i class='bx bx-heart'></i></button>
+        </div>
+        <div class="content">
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star-half' ></i><br>
+          <a routerLink="/chitiet/{{m.id}}">{{m.title}}</a>
+          <p>${{m.discount}}</p>
+        </div>
+      </div>
+
+
+      <div class="view">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+      </div>
+    </div>
+    </div>
+    <div class="feedback">
+      <div class="menu_text">
+        <span class="span_text"><i class='bx bxs-quote-alt-left'></i>Testimonials</span>
+        <h2>Users Feedback</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <div class="content">
+                  <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                    meet new people and create instantly non
+                    connections. I have the exact same personal
+                    the only thing that has changed is my mind
+                    set and a few behaviors. “</div>
+                  <div class="media">
+                    <div class="user_fb">
+                      <img src="./assets/images/user1.jpg" alt=""/>
+                    </div>
+                    <div class="user_text">
+                      <p>Head Of Idea</p>
+                      <h6>	Neymar da Silva Santos Júnior</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                    meet new people and create instantly non
+                    connections. I have the exact same personal
+                    the only thing that has changed is my mind
+                    set and a few behaviors. “</div>
+                  <div class="media">
+                    <div class="user_fb">
+                      <img src="./assets/images/user2.jpg" alt=""/>
+                    </div>
+                    <div class="user_text">
+                      <p>Head Of Idea</p>
+                      <h6>Cristiano Ronaldo</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                    meet new people and create instantly non
+                    connections. I have the exact same personal
+                    the only thing that has changed is my mind
+                    set and a few behaviors. “</div>
+                  <div class="media">
+                    <div class="user_fb">
+                      <img src="./assets/images/user3.jpg" alt=""/>
+                    </div>
+                    <div class="user_text">
+                      <p>Head Of Idea</p>
+                      <h6>Antoyny Elang</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content">
+                <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                  meet new people and create instantly non
+                  connections. I have the exact same personal
+                  the only thing that has changed is my mind
+                  set and a few behaviors. “</div>
+                <div class="media">
+                  <div class="user_fb">
+                    <img src="./assets/images/user4.jpg" alt=""/>
+                  </div>
+                  <div class="user_text">
+                    <p>Head Of Idea</p>
+                    <h6>Janchan Sancho</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                  meet new people and create instantly non
+                  connections. I have the exact same personal
+                  the only thing that has changed is my mind
+                  set and a few behaviors. “</div>
+                <div class="media">
+                  <div class="user_fb">
+                    <img src="./assets/images/user5.jpg" alt=""/>
+                  </div>
+                  <div class="user_text">
+                    <p>Head Of Idea</p>
+                    <h6>Alejandro Garnacho</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                  meet new people and create instantly non
+                  connections. I have the exact same personal
+                  the only thing that has changed is my mind
+                  set and a few behaviors. “</div>
+                <div class="media">
+                  <div class="user_fb">
+                    <img src="./assets/images/user6.jpg" alt=""/>
+                  </div>
+                  <div class="user_text">
+                    <p>Head Of Idea</p>
+                    <h6>Antoyn</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content">
+                <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                  meet new people and create instantly non
+                  connections. I have the exact same personal
+                  the only thing that has changed is my mind
+                  set and a few behaviors. “</div>
+                <div class="media">
+                  <div class="user_fb">
+                    <img src="./assets/images/user1.jpg" alt=""/>
+                  </div>
+                  <div class="user_text">
+                    <p>Head Of Idea</p>
+                    <h6>Mason Greenwoom</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                  meet new people and create instantly non
+                  connections. I have the exact same personal
+                  the only thing that has changed is my mind
+                  set and a few behaviors. “</div>
+                <div class="media">
+                  <div class="user_fb">
+                    <img src="./assets/images/user2.jpg" alt=""/>
+                  </div>
+                  <div class="user_text">
+                    <p>Head Of Idea</p>
+                    <h6>Antony Maratiny</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="bubble bubble-bottom-left">“ It’s amazing how much easier it has been to
+                  meet new people and create instantly non
+                  connections. I have the exact same personal
+                  the only thing that has changed is my mind
+                  set and a few behaviors. “</div>
+                <div class="media">
+                  <div class="user_fb">
+                    <img src="./assets/images/user4.jpg" alt=""/>
+                  </div>
+                  <div class="user_text">
+                    <p>Head Of Idea</p>
+                    <h6>Van De Beek</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="chung4">
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="width: 45px;height: 45px"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="width: 45px;height: 45px"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="new-arrivals">
+        <div class="container">
+
+        <div class="menu_text menu_text1">
+          <span><i class='bx bxs-shopping-bag'></i>This Week’s</span>
+          <h2>New Arrivals</h2>
+        </div>
+
+          <div id="fromslist111">
+            <div id="sile222">
+
+              <div class="axil-product product-style-two"  *ngFor="let m of home ,let i= index ">
+                <div class="thumbnail">
+                  <a routerLink="/chitiet/{{home[i].id}}" (click)="onactive()" tabindex="0">
+                    <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="500" src="{{home[i].picture}}" alt="Product Images" class="sal-animate">
+                  </a>
+                </div>
+                <div class="product-content">
+                  <div class="inner">
+
+                    <h5 class="title"><a routerLink="/chitiet/{{home[i].id}}" (click)="onactive()" tabindex="0">{{home[i].title}}</a></h5>
+                    <div class="product-price-variant">
+                      <span class="price old-price">${{home[i].discount}}</span>
+                      <span class="price current-price">${{home[i].price}}</span>
+                    </div>
+                  </div>
+                  <div class="product-hover-action">
+                    <ul class="cart-action">
+                      <li class="quickview"><a routerLink="/chitiet/{{home[i].id}}" (click)="onactive()" data-bs-toggle="modal" data-bs-target="#quick-view-modal" tabindex="0"><i class="far fa-eye"></i></a></li>
+                      <li class="select-option"><a routerLink="/cart" (click)="onactive()" tabindex="0">Add to Cart</a></li>
+                      <li class="wishlist"><a href="" tabindex="0"><i class="far fa-heart"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+<!--              <div class="axil-product product-style-two">-->
+<!--                <div class="thumbnail">-->
+<!--                  <a href="" tabindex="0">-->
+<!--                    <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="500" src="assets/images/product-08.png" alt="Product Images" class="sal-animate">-->
+<!--                  </a>-->
+<!--                </div>-->
+<!--                <div class="product-content">-->
+<!--                  <div class="inner">-->
+
+<!--                    <h5 class="title"><a href="" tabindex="0">Google Home</a></h5>-->
+<!--                    <div class="product-price-variant">-->
+<!--                      <span class="price old-price">$50</span>-->
+<!--                      <span class="price current-price">$40</span>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div class="product-hover-action">-->
+<!--                    <ul class="cart-action">-->
+<!--                      <li class="quickview"><a href="#" data-bs-toggle="modal" data-bs-target="#quick-view-modal" tabindex="0"><i class="far fa-eye"></i></a></li>-->
+<!--                      <li class="select-option"><a href="" tabindex="0">Select Option</a></li>-->
+<!--                      <li class="wishlist"><a href="" tabindex="0"><i class="far fa-heart"></i></a></li>-->
+<!--                    </ul>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+
+<!--              <div class="axil-product product-style-two">-->
+<!--                <div class="thumbnail">-->
+<!--                  <a href="" tabindex="0">-->
+<!--                    <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="500" src="assets/images/product-07.png" alt="Product Images" class="sal-animate">-->
+<!--                  </a>-->
+<!--                </div>-->
+<!--                <div class="product-content">-->
+<!--                  <div class="inner">-->
+
+<!--                    <h5 class="title"><a href="" tabindex="0">Google Home</a></h5>-->
+<!--                    <div class="product-price-variant">-->
+<!--                      <span class="price old-price">$50</span>-->
+<!--                      <span class="price current-price">$40</span>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div class="product-hover-action">-->
+<!--                    <ul class="cart-action">-->
+<!--                      <li class="quickview"><a href="#" data-bs-toggle="modal" data-bs-target="#quick-view-modal" tabindex="0"><i class="far fa-eye"></i></a></li>-->
+<!--                      <li class="select-option"><a href="" tabindex="0">Select Option</a></li>-->
+<!--                      <li class="wishlist"><a href="" tabindex="0"><i class="far fa-heart"></i></a></li>-->
+<!--                    </ul>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+
+<!--              <div class="axil-product product-style-two">-->
+<!--                <div class="thumbnail">-->
+<!--                  <a href="" tabindex="0">-->
+<!--                    <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="500" src="assets/images/product-05.png" alt="Product Images" class="sal-animate">-->
+<!--                  </a>-->
+<!--                </div>-->
+<!--                <div class="product-content">-->
+<!--                  <div class="inner">-->
+
+<!--                    <h5 class="title"><a href="" tabindex="0">Google Home</a></h5>-->
+<!--                    <div class="product-price-variant">-->
+<!--                      <span class="price old-price">$50</span>-->
+<!--                      <span class="price current-price">$40</span>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div class="product-hover-action">-->
+<!--                    <ul class="cart-action">-->
+<!--                      <li class="quickview"><a href="#" data-bs-toggle="modal" data-bs-target="#quick-view-modal" tabindex="0"><i class="far fa-eye"></i></a></li>-->
+<!--                      <li class="select-option"><a href="" tabindex="0">Select Option</a></li>-->
+<!--                      <li class="wishlist"><a href="" tabindex="0"><i class="far fa-heart"></i></a></li>-->
+<!--                    </ul>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+          </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+     </div>
+
+  </section>
+
+
+
+</body>
+</html>

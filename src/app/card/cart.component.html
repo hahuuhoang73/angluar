@@ -1,0 +1,186 @@
+
+
+<style>
+  #item8{
+    background-image: url(assets/img/avta1.png);
+  }
+  #item9{
+    background-image: url(assets/img/avta2.png);
+  }
+  #item14{
+    background-image: url(assets/img/avta3.png);
+  }
+  #item11{
+    background-image: url(assets/img/avta4.png);
+  }
+  #item12{
+    background-image: url(assets/img/avta5.png);
+  }
+  #item13{
+    background-image: url(assets/img/avta5.png);
+  }
+  #item7{
+    background-image:url("assets/img/navbar.png") ;
+  }
+  #item1{
+    background-image: url(assets/img/hhh.jpg);
+
+  }
+  #item2{
+    background-image: url(assets/img/kkk.jpg);
+  }
+  #item3{
+    background-image: url(assets/img/ttt.jpg);
+  }
+  #item4{
+    background-image: url(assets/img/keyborad_akko.jpg);
+  }
+  #item5{
+    background-image: url(assets/img/taycamps5.jpg);
+  }
+  #item6{
+    background-image: url(assets/img/mouse.jpg);
+  }
+</style>
+<body>
+
+
+
+<div class="section navigation">
+  <div class="nav1">
+    <div id="item7" >
+    </div>
+  </div>
+</div>
+
+<section class="section main">
+  <div class="thanhtoan">
+    <div class="container">
+      <div class="axil-product-cart-wrap">
+        <div class="cart">
+          <h4 class="title">Your Cart</h4>
+          <a href="#" class="cart-clear">Clear Shoping Cart</a>
+        </div>
+        <div class="table-responsive">
+          <table class="table axil-product-table axil-cart-table mb--40">
+            <thead>
+            <tr>
+              <th scope="col" class="product-remove"></th>
+              <th scope="col" class="product-thumbnail">Product</th>
+              <th scope="col" class="product-title"></th>
+              <th scope="col" class="product-price">Price</th>
+              <th scope="col" class="product-quantity">Quantity</th>
+              <th scope="col" class="product-subtotal">Subtotal</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let m of cart1; let i =index;">
+              <td class="product-remove"><a href="#" class="remove-wishlist"><i class='bx bxs-trash'></i></a></td>
+              <td class="product-thumbnail"><a routerLink="/chitiet/{{cart1[i].id}}"><img src="{{cart1[i].picture}}" alt="Digital Product"></a></td>
+              <td class="product-title"><a routerLink="/chitiet/{{cart1[i].id}}">{{cart1[i].title}}</a></td>
+              <td class="product-price" data-title="Price"><span class="currency-symbol">$</span>{{cart1[i].discount}}</td>
+              <td class="product-quantity" data-title="Qty">
+                <div class="pro-qty">
+                  <input type="number" class="quantity-input" value="1" id="1" min="1" >
+                  </div>
+              </td>
+              <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">$</span>275.00</td>
+            </tr>
+<!--            <tr>-->
+<!--              <td class="product-remove"><a href="#" class="remove-wishlist"><i class='bx bxs-trash'></i></a></td>-->
+<!--              <td class="product-thumbnail"><a href="#"><img src="./assets/images/product-02.png" alt="Digital Product"></a></td>-->
+<!--              <td class="product-title"><a href="#">Gradient Light Keyboard</a></td>-->
+<!--              <td class="product-price" data-title="Price"><span class="currency-symbol">$</span>124.00</td>-->
+<!--              <td class="product-quantity" data-title="Qty">-->
+<!--                <div class="pro-qty"><span class="dec qtybtn" >-</span>-->
+<!--                  <input type="number" class="quantity-input" value="1">-->
+<!--                  <span class="inc qtybtn" >+</span></div>-->
+<!--              </td>-->
+<!--              <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">$</span>275.00</td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--              <td class="product-remove"><a href="#" class="remove-wishlist"><i class='bx bxs-trash'></i></a></td>-->
+<!--              <td class="product-thumbnail"><a href="#"><img src="./assets/images/product-03.png" alt="Digital Product"></a></td>-->
+<!--              <td class="product-title"><a href="#">HD CC Camera</a></td>-->
+<!--              <td class="product-price" data-title="Price"><span class="currency-symbol">$</span>124.00</td>-->
+<!--              <td class="product-quantity" data-title="Qty">-->
+<!--                <div class="pro-qty"><span class="dec qtybtn">-</span>-->
+<!--                  <input type="number" class="quantity-input" value="1">-->
+<!--                  <span class="inc qtybtn">+</span></div>-->
+<!--              </td>-->
+<!--              <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">$</span>275.00</td>-->
+<!--            </tr>-->
+            </tbody>
+          </table>
+        </div>
+        <div class="giamgia">
+          <form>
+          <div class="input-group product-cupon">
+
+            <input placeholder="Enter coupon code" required type="text">
+            <div class="product-cupon-btn">
+              <button type="submit" class="axil-btn btn-outline">Apply</button>
+            </div>
+          </div>
+          </form>
+          <div class="update-btn">
+            <a href="#" class="axil-btn btn-outline">Update Cart</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-5 col-lg-7 offset-xl-7 offset-lg-5">
+            <div class="axil-order-summery mt--80">
+              <h5 class="title mb--20">Order Summary</h5>
+              <div class="summery-table-wrap">
+                <table class="table summery-table mb--30">
+                  <tbody>
+                  <tr class="order-subtotal">
+                    <td>Subtotal</td>
+                    <td>$3.887</td>
+                  </tr>
+                  <tr class="order-shipping">
+                    <td>Shipping</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="radio" id="radio1" name="shipping" >
+                        <label for="radio1">Free Shippping</label>
+                      </div>
+                      <div class="input-group">
+                        <input type="radio" id="radio2" name="shipping" checked="">
+                        <label for="radio2">Local: $35.00</label>
+                      </div>
+                      <div class="input-group">
+                        <input type="radio" id="radio3" name="shipping">
+                        <label for="radio3">Flat rate: $12.00</label>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="order-tax">
+                    <td>State Tax</td>
+                    <td>$8.00</td>
+                  </tr>
+                  <tr class="order-total">
+                    <td>Total</td>
+                    <td class="order-total-amount">$3.922</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <a routerLink="/thanhtoan" class="axil-btn btn-bg-primary checkout-btn">Process to Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</section>
+
+<footer class="section footer">
+
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-to-top'></i></button>
+

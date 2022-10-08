@@ -19,7 +19,7 @@ ngOnInit(){//ham này tự động chạy sau khi in ra html
  this.to();
  this.lo();
  this.be();
- this.ne();
+ this.ns();
 }
 hanoi() {
 
@@ -82,9 +82,9 @@ hanoi() {
       })
   }
 
-  ne() {
+  ns() {
 
-    const url = 'https://api.openweathermap.org/data/2.5/weather?q=new york&appid=09a71427c59d38d6a34f89b47d75975c&units=metric';
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=new york&appid=09a71427c59d38d6a34f89b47d75975c&units=metric`;
     this.http.get<any>(url)
       .subscribe(data => {
 
